@@ -1,4 +1,5 @@
-ThinkPad Super Low Profile TrackPoint Cap Set  
+# ThinkPad Super Low Profile TrackPoint Cap Set
+
 Part Number: 4XH0L55146  
 
 Compatible Machines  
