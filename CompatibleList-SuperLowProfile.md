@@ -1,11 +1,118 @@
-- ThinkPad 13 1st Gen
+- A285-20MW MT
+- A285-20MX MT
+- E14 Gen 2-ARE-20T6 MT 2020
+- E14 Gen 2-ARE-20T7 MT 2020
+- E14-IML-20RA MT
+- E14-IML-20RB MT
+- E15 Gen 2-ARE-20T8 MT 2020
+- E15 Gen 2-ARE-20T9 MT 2020
+- E15-IML-20RD MT
+- E15-IML-20RE MT
+- E480-20KN MT
+- E480-20KQ MT
+- E485-20KU MT
+- E490-20N8 MT
+- E490-20N9 MT
+- E490s-20NG MT
+- E495-20NE MT
+- E580-20KS MT
+- E580-20KT MT
+- E585-20KV MT
+- E590-20NB MT
+- E590-20NC MT
+- E595-20NF MT
+- L13 Clam 2nd Generation-20VH MT 2020
+- L13 Clam 2nd Generation-20VJ MT 2020
+- L13 Clam-20R3 MT
+- L13 Clam-20R4 MT
+- L13 Yoga 2nd Generation-20VK MT 2020
+- L13 Yoga 2nd Generation-20VL MT 2020
+- L13 Yoga-20R5 MT
+- L13 Yoga-20R6 MT
+- L14 AMD G1-20U5 MT 2020
+- L14 AMD G1-20U6 MT 2020
+- L14 G2-20X1 - L14 Gen 2
+- L14 G2-20X2 - L14 Gen 2
+- L15 AMD G1-20U7 MT 2020
+- L15 AMD G1-20U8 MT 2020
+- L15 G2-20X3 - L15 Gen 2
+- L15 G2-20X4 - L15 Gen 2
+- L380-20M5 MT
+- L380-20M6 MT
+- L380-20M7 MT
+- L380-20M8 MT
+- L390-20NR MT
+- L390-20NS MT
+- L390-20NT MT
+- L390-20NU MT
+- L480-20LS MT
+- L480-20LT MT
+- L490-20Q5 MT
+- L490-20Q6 MT
+- L580-20LW MT
+- L580-20LX MT
+- L590-20Q7 MT
+- L590-20Q8 MT
+- P1 2nd Generation-20QT MT
+- P1 2nd Generation-20QU MT
+- P1-20MD MT
+- P1-20ME MT
+- P14s AMD G1-20Y1 - P14s AMD Gen 1
+- P14s AMD G1-20Y2 - P14s AMD Gen 1
+- P15s G1-20T4 MT 2020
+- P15s G1-20T5 MT 2020
+- P43s-20RH MT
+- P43s-20RJ MT
+- P52-20M9 MT
+- P52-20MA MT
+- P53-20QN MT
+- P53-20QQ MT
+- P53s-20N6 MT
+- P53s-20N7 MT
+- P72-20MB MT
+- P72-20MC MT
+- P73-20QR MT
+- P73-20QS MT
+- T14 AMD G1-20UD MT 2020
+- T14 AMD G1-20UE MT 2020
+- T14s AMD G1-20UH MT 2020
+- T14s AMD G1-20UJ MT 2020
+- T460p-20FW MT
+- T460p-20FX MT
+- T460s-20F9 MT
+- T460s-20FA MT
+- T470p-20J6 MT
+- T470p-20J7 MT
+- T470s-20HF MT
+- T470s-20HG MT
+- T470s-20JS MT
+- T470s-20JT MT
+- T480s-KOLAR-1.0 20L7 MT
+- T480s-KOLAR-1.0 20L8 MT
+- T490-20N2 MT
+- T490-20N3 MT
+- T490-20Q9 MT
+- T490-20QH MT
+- T490-20RX MT
+- T490-20RY MT
+- T490s-20NX MT
+- T490s-20NY MT
+- T495-20NJ MT
+- T495-20NK MT
+- T495s-20QJ MT
+- T495s-20QK MT
+- T590-20N4 MT
+- T590-20N5 MT
+- ThinkPad 13 1st Generation-20GJ MT
+- ThinkPad 13 1st Generation-20GK MT
 - ThinkPad 13 2nd Generation-20J1 MT
 - ThinkPad 13 2nd Generation-20J2 MT
 - ThinkPad L14-20U1 MT 2020
 - ThinkPad L14-20U2 MT 2020
 - ThinkPad L15-20U3 MT 2020
 - ThinkPad L15-20U4 MT 2020
-- ThinkPad P1 3rd Generation
+- ThinkPad P1 3rd Generation-20TH MT 2020
+- ThinkPad P1 3rd Generation-20TJ MT 2020
 - ThinkPad P14s-20S4 MT 2020
 - ThinkPad P14s-20S5 MT 2020
 - ThinkPad P15-20ST MT 2020
@@ -15,13 +122,54 @@
 - ThinkPad P15v-20TQ MT 2020
 - ThinkPad P15v-20TR MT 2020
 - ThinkPad P17-20SN MT 2020
-- ThinkPad P17-20SQ MT 20
-- ThinkPad T14-20S0 M
-- ThinkPad T14-20
-- ThinkPad T1
+- ThinkPad P17-20SQ MT 2020
+- ThinkPad T14-20S0 MT 2020
+- ThinkPad T14-20S1 MT 2020
+- ThinkPad T14-20S2 MT 2020 HC
+- ThinkPad T14-20S3 MT 2020 HC
 - ThinkPad T14s-20T0 MT 2020
 - ThinkPad T14s-20T1 MT 2020
 - ThinkPad T15-20S6 MT 2020
 - ThinkPad T15-20S7 MT 2020
 - ThinkPad T15p-20TM MT 2020
 - ThinkPad T15p-20TN MT 2020
+- X1 Carbon 4th Generation-20FB MT
+- X1 Carbon 4th Generation-20FC MT
+- X1 Carbon 5th Generation-20HQ MT
+- X1 Carbon 5th Generation-20HR MT
+- X1 Carbon 5th Generation-20K3 MT
+- X1 Carbon 5th Generation-20K4 MT
+- X1 Carbon 6th Generation-20KG MT
+- X1 Carbon 6th Generation-20KH MT
+- X1 Extreme 1st Generation-20MF MT
+- X1 Extreme 1st Generation-20MG MT
+- X1 Extreme 2nd Generation-20QV MT
+- X1 Extreme 2nd Generation-20QW MT
+- X1 Extreme 3rd Generation-20TK MT 2020
+- X1 Extreme 3rd Generation-20TL MT 2020
+- X1 Yoga 1st Generation-20FQ MT
+- X1 Yoga 1st Generation-20FR MT
+- X1 Yoga 2nd Generation-20JD MT
+- X1 Yoga 2nd Generation-20JE MT
+- X1 Yoga 2nd Generation-20JF MT
+- X1 Yoga 2nd Generation-20JG MT
+- X1 Yoga 3rd Generation-RAVEN-3.0 20LD MT
+- X1 Yoga 3rd Generation-RAVEN-3.0 20LE MT
+- X1 Yoga 3rd Generation-RAVEN-3.0 20LF MT
+- X1 Yoga 3rd Generation-RAVEN-3.0 20LG MT
+- X13 AMD G1-20UF MT 2020
+- X13 AMD G1-20UG MT 2020
+- X13 G1-20T2 MT 2020
+- X13 G1-20T3 MT 2020
+- X13 Yoga-20SX MT 2020
+- X13 Yoga-20SY MT 2020
+- X280-20KE MT
+- X280-20KF MT
+- X390 Yoga-20NN MT
+- X390 Yoga-20NQ MT
+- X390-20Q0 MT
+- X390-20Q1 MT
+- X390-20SC MT
+- X390-20SD MT
+- X395-20NL MT
+- X395-20NM MT

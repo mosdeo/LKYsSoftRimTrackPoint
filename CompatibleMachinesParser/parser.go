@@ -9,6 +9,18 @@ import (
 )
 
 func main() {
+	// str, _ := ReadTxtToString("SmartFind_0A33908.mhtml")
+	// // fmt.Println(strings.Count(str, "\n"))
+	// str = strings.ReplaceAll(str, "=\r\n", "")
+	// fmt.Println(str)
+	// fmt.Println(strings.Count(str, "=\r"))
+	// fmt.Println(strings.Count(str, "=\n"))
+	// fmt.Println(strings.Count(str, "=\r\n"))
+	// fmt.Println(strings.Count(str, "=\r\n\r"))
+	// fmt.Println(strings.Count(str, "=\r\n\n"))
+	// // fmt.Println(strings.Count(str, "=\r\r"))
+	// return
+
 	LowProfileModelList := PrintModes("SmartFind_0A33908.mhtml")
 	SuperLowProfileModelList := PrintModes("SmartFind_4XH0L55146.mhtml")
 	fmt.Printf("LowProfileModelList      len = %d\n", len(LowProfileModelList))
@@ -28,16 +40,18 @@ func PrintModes(filePath string) []string {
 	var modelList []string
 	fileContent, _ := ReadTxtToString(filePath)
 
+	fileContent = strings.ReplaceAll(fileContent, "=\r\n", "")
+
 	//只取 tbody 區塊
 	fisrtTbodyIdx := strings.Index(fileContent, "<tbody>")
 	lastTbodyIdx := strings.LastIndex(fileContent, "</tbody>")
 	fileContent = fileContent[fisrtTbodyIdx:lastTbodyIdx]
 
 	//依照關鍵字開頭分割
-	splitedFileContent := strings.Split(fileContent, "ThinkPad")
+	splitedFileContent := strings.Split(fileContent, "<td rowspan=3D\"1\">")
 
 	for _, txtline := range splitedFileContent {
-		cutIdx := strings.IndexFunc(txtline, func(r rune) bool { return '=' == r || '<' == r })
+		cutIdx := strings.IndexFunc(txtline, func(r rune) bool { return '<' == r })
 		if -1 != cutIdx {
 			txtline = txtline[:cutIdx]
 		}
@@ -46,8 +60,8 @@ func PrintModes(filePath string) []string {
 			continue
 		}
 
-		fmt.Printf("ThinkPad%s\n", txtline)
-		modelList = append(modelList, fmt.Sprintf("- ThinkPad%s", txtline))
+		fmt.Printf("%s\n", txtline)
+		modelList = append(modelList, fmt.Sprintf("- %s", txtline))
 	}
 
 	return modelList
