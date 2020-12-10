@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <div class="content">
-        <title data-i18n="content.Title"></title>
+    <div class="nav">
+        <title data-i18n="nav.title"></title>
     </div>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width"/>
@@ -64,6 +64,7 @@
             <h3 class="subhead">大孔𝖷小孔𝖷款式（還沒做）</h3>
         </a>
     </div>
+    <script src="js/i18n-text-navibar.js"></script>
     <script>
       // use plugins and options as needed, for options, detail see
       // http://i18next.com/docs/
@@ -72,44 +73,25 @@
         resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
             'zh-CN': {
                 translation: {
-                    nav: {
-                        buy: '哪里买才得到？',
-                        whyisitsoexpensive: '为什么这么贵？',
-                        salesdataanalysisgallery: '销售数据分析艺廊',
-                    },
-                    content: {
-                        Title: 'LKY\'s 小红点 - 官方网站',    
+                    content: {  
                     },
                 }
             }, 
             'zh-TW': {
                 translation: {
-                    nav: {
-                        buy: '哪裡買才得到？',
-                        whyisitsoexpensive: '為什麼這麼貴？',
-                        salesdataanalysisgallery: '銷售數據分析藝廊',
-                    },
                     content: {
-                        Title: 'LKY\'s 小紅點 - 官方網站',   
                     },
                 }
             }, 
             'en-US': {
                 translation: {
-                    nav: {
-                        buy: 'Buy',
-                        whyisitsoexpensive: 'Why is it so expensive？',
-                        salesdataanalysisgallery: 'Sales Data Analysis Gallery',
-                    },
-                    content: {
-                        Title: 'LKY\'s Soft-Rim TrackPoint - WebStie',    
+                    content: { 
                     },
                 }
             }
         }
       }, function(err, t) {
         localize = locI18next.init(i18next);
-        localize('.nav');
         localize('.content');
     });
     </script>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <div class="content">
-        <title data-i18n="content.Title"></title>
+    <div class="nav">
+        <title data-i18n="nav.title"></title>
     </div>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width"/>
@@ -63,52 +63,6 @@
         </a>
         <h2></br></h2>
     </div>
-    <script>
-        // use plugins and options as needed, for options, detail see
-        // http://i18next.com/docs/
-        i18next.init({
-            lng: getCurrentLangByURLAutoFixToSupported(), // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
-            resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
-                'zh-CN': {
-                    translation: {
-                        nav: {
-                            buy: '哪里买才得到？',
-                            whyisitsoexpensive: '为什么这么贵？',
-                            salesdataanalysisgallery: '销售数据分析艺廊',
-                        },
-                        content: {    
-                        },
-                    }
-                }, 
-                'zh-TW': {
-                    translation: {
-                        nav: {
-                            buy: '哪裡買才得到？',
-                            whyisitsoexpensive: '為什麼這麼貴？',
-                            salesdataanalysisgallery: '銷售數據分析藝廊',
-                        },
-                        content: {    
-                        },
-                    }
-                }, 
-                'en-US': {
-                    translation: {
-                        nav: {
-                            buy: 'Buy',
-                            whyisitsoexpensive: 'Why is it so expensive？',
-                            salesdataanalysisgallery: 'Sales Data Analysis Gallery',
-                        },
-                        content: {
-                            Title: 'LKY\'s Soft-Rim TrackPoint - WebStie',    
-                        },
-                    }
-                }
-            }
-        }, function(err, t) {
-        localize = locI18next.init(i18next);
-        localize('.nav');
-        localize('.content');
-        });
-    </script>
+    <script src="js/i18n-text-navibar.js"></script>
 </body>
 </html>
