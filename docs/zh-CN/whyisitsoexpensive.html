@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="content">
+        <title data-i18n="content.Title"></title>
+    </div>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js"></script>
+    <script src="js/loc-i18next.min.js"></script>
+    <script src="js/mytool.js"></script>
+</head>
+<body align="center">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-fixed-top">
+        <link type="text/css" rel="stylesheet" href="css/navibar.css"/>
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="#" onclick="resolveUrl('/');">LKY's ThinkPad Soft-Rim TrackPoint</a></li>
+                <li><a href="#" onclick="resolveUrl('/buy');" data-i18n="nav.buy"></a></li>
+                <li><a href="#" onclick="resolveUrl('/whyisitsoexpensive')" data-i18n="nav.whyisitsoexpensive"></a></li>
+                <li><a href="#" onclick="resolveUrl('/salesdataanalysisgallery')" data-i18n="nav.salesdataanalysisgallery"></a></li>
+                <li><a href="#" onclick="resolveUrlChangeLanguage('en-US')" class="languageswitch">En</a></li>
+                <li><a href="#" onclick="resolveUrlChangeLanguage('zh-TW')" class="languageswitch">繁</a></li>
+                <li><a href="#" onclick="resolveUrlChangeLanguage('zh-CN')" class="languageswitch">简</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 過了Navbar以後使用這個css -->
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+    <!-- 這一塊 div 用來填充 Navbar 背面的部分，結構要和 Navbar 一樣，寬度變窄的時候才能同步把後面的內容擠下去，不會被 Navbar 擋住 -->
+    <div class="night-style-fill-at-back-of-navbar">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div class="day-style">
+        <style scoped>
+            table { table-layout: fixed; }
+            td { width: 30%; }
+            img {
+                top: 0;
+                left: 0;
+                width: 35%;
+            }
+        </style>
+        <h2 class="head">覺得貴嗎？貴就對了！</h2>
+        <h2 class="head">便宜是留給爛大街的凸點。</h2>
+        <h2 class="head">加油！挑剔的人！</h2>
+        <h2></br></h2>
+        <a target="_blank" href="https://github.com/mosdeo/Homemade_ThinkPad_soft-rim_pointing-stick/blob/master/TooExpensive.md">
+            <h4 style="color: #AAAAAA; font-weight:lighter;">閱讀我們正經八百又長篇大論的回答。</h4>
+        </a>
+        <h2></br></h2>
+    </div>
+    <script>
+        // use plugins and options as needed, for options, detail see
+        // http://i18next.com/docs/
+        i18next.init({
+            lng: getCurrentLangByURLAutoFixToSupported(), // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
+            resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
+                'zh-CN': {
+                    translation: {
+                        nav: {
+                            buy: '哪里买才得到？',
+                            whyisitsoexpensive: '为什么这么贵？',
+                            salesdataanalysisgallery: '销售数据分析艺廊',
+                        },
+                        content: {    
+                        },
+                    }
+                }, 
+                'zh-TW': {
+                    translation: {
+                        nav: {
+                            buy: '哪裡買才得到？',
+                            whyisitsoexpensive: '為什麼這麼貴？',
+                            salesdataanalysisgallery: '銷售數據分析藝廊',
+                        },
+                        content: {    
+                        },
+                    }
+                }, 
+                'en-US': {
+                    translation: {
+                        nav: {
+                            buy: 'Buy',
+                            whyisitsoexpensive: 'Why is it so expensive？',
+                            salesdataanalysisgallery: 'Sales Data Analysis Gallery',
+                        },
+                        content: {
+                            Title: 'LKY\'s Soft-Rim TrackPoint - WebStie',    
+                        },
+                    }
+                }
+            }
+        }, function(err, t) {
+        localize = locI18next.init(i18next);
+        localize('.nav');
+        localize('.content');
+        });
+    </script>
+</body>
+</html>

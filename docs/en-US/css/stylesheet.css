@@ -1,0 +1,63 @@
+h2.head {
+  font-family: "SF Pro TC","SF Pro Text","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+h3.subhead {
+  font-family: "SF Pro TC","SF Pro Text","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+  
+body {
+  font-family: "SF Pro TC","SF Pro Text","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  background-color: ghostwhite;
+}
+
+a.price, a.price:hover {
+  color: #777777;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+a.tobuy {
+  color: #2997ff;
+  font-size: 18px;
+}
+
+a.store-link {
+  color: #1e1e1e8f;
+  font-size: 28px;
+}
+    
+div.night-style {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #000000;
+}
+
+div.night-style-fill-at-back-of-navbar {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  background-color: #000000;
+}
+
+div.day-style {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: ghostwhite;
+}
+
+div.night-style h2.head, 
+div.night-style h3.subhead
+{
+  color: #FFFFFF;
+}
+
+div.day-style h2.head, 
+div.day-style h3.subhead
+{
+  color: #000000;
+}

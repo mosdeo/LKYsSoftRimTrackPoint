@@ -1,4 +1,4 @@
-# Homemade_ThinkPad_soft-rim_pointing-stick
+# LKYsSoftRimTrackPoint
 
 ## 讓你願意常態性使用的小紅點 ｜ 丟掉滑鼠、丟掉電腦包裡的腫塊 ｜ 耐用
 

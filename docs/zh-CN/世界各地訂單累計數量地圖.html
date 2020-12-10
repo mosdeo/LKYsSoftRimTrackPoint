@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="content">
+        <title data-i18n="content.Title"></title>
+    </div>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js"></script>
+    <script src="js/loc-i18next.min.js"></script>
+    <script src="js/mytool.js"></script>
+    {{/* for echarts */}}
+    <script src="https://go-echarts.github.io/go-echarts-assets/assets/echarts.min.js"></script>
+    <script src="https://go-echarts.github.io/go-echarts-assets/assets/maps/china.js"></script>
+    <script src="https://go-echarts.github.io/go-echarts-assets/assets/themes/macarons.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-fixed-top">
+        <link type="text/css" rel="stylesheet" href="css/navibar.css"/>
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="#" onclick="resolveUrl('/');">LKY's ThinkPad Soft-Rim TrackPoint</a></li>
+                <li><a href="#" onclick="resolveUrl('/buy');" data-i18n="nav.buy"></a></li>
+                <li><a href="#" onclick="resolveUrl('/whyisitsoexpensive')" data-i18n="nav.whyisitsoexpensive"></a></li>
+                <li><a href="#" onclick="resolveUrl('/salesdataanalysisgallery')" data-i18n="nav.salesdataanalysisgallery"></a></li>
+                <li><a href="#" onclick="resolveUrlChangeLanguage('en-US')" class="languageswitch">En</a></li>
+                <li><a href="#" onclick="resolveUrlChangeLanguage('zh-TW')" class="languageswitch">繁</a></li>
+                <li><a href="#" onclick="resolveUrlChangeLanguage('zh-CN')" class="languageswitch">简</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="item" id="rbqpiTvByIgj"
+            style="width:900px;height:500px;"></div>
+    </div>
+    <script type="text/javascript">
+        "use strict";
+        var myChart_rbqpiTvByIgj = echarts.init(document.getElementById('rbqpiTvByIgj'), "macarons");
+        var option_rbqpiTvByIgj = {
+            title: {"text":"我們自製的 ThinkPad Soft-Rim 小紅點，世界各地訂單累計數量地圖"},
+            tooltip: {"show":false},
+            legend: {"show":false},
+        
+        
+            visualMap:[{"calculable":true,"max":150}],
+            series: [
+            {"name":"map","type":"map","waveAnimation":false,"map":"china","data":[{"name":"香港","value":1},{"name":"广西","value":2},{"name":"江苏","value":3},{"name":"福建","value":4},{"name":"天津","value":1},{"name":"重庆","value":2},{"name":"山西","value":1},{"name":"台湾","value":110},{"name":"贵州","value":1},{"name":"湖南","value":2},{"name":"广东","value":13},{"name":"上海","value":12},{"name":"浙江","value":4},{"name":"河南","value":1},{"name":"辽宁","value":1},{"name":"湖北","value":1},{"name":"河北","value":1},{"name":"北京","value":16},{"name":"新疆","value":1},{"name":"四川","value":1},{"name":"安徽","value":2}]},
+            ],
+        };
+        myChart_rbqpiTvByIgj.setOption(option_rbqpiTvByIgj);
+    </script>
+
+        <br/>
+        
+    <div class="container">
+        <div class="item" id="bWvuJlKcnnkB"
+            style="width:900px;height:500px;"></div>
+    </div>
+    <script type="text/javascript">
+        "use strict";
+        var myChart_bWvuJlKcnnkB = echarts.init(document.getElementById('bWvuJlKcnnkB'), "white");
+        var option_bWvuJlKcnnkB = {
+            title: {"text":"basic geo example"},
+            tooltip: {"show":false,"formatter":function (params) {return params.name + ' : ' + params.value[2];}},
+            legend: {"show":false},
+            geo: {"map":"china","itemStyle":{"color":"#EEEEEE"}},
+        
+        
+            series: [
+            {"name":"geo","type":"effectScatter","waveAnimation":false,"coordinateSystem":"geo","data":[{"name":"福建","value":[119.3,26.08,4]},{"name":"辽宁","value":[123.38,41.8,1]},{"name":"浙江","value":[120.19,30.26,4]},{"name":"广东","value":[113.23,23.16,13]},{"name":"重庆","value":[106.54,29.59,2]},{"name":"河南","value":[113.65,34.76,1]},{"name":"山西","value":[112.53,37.87,1]},{"name":"广西","value":[108.33,22.84,2]},{"name":"天津","value":[117.2,39.13,1]},{"name":"四川","value":[104.06,30.67,1]},{"name":"湖北","value":[114.31,30.52,1]},{"name":"安徽","value":[117.27,31.86,2]},{"name":"新疆","value":[87.68,43.77,1]},{"name":"贵州","value":[106.71,26.57,1]},{"name":"台湾","value":[121.3,25.03,110]},{"name":"北京","value":[116.46,39.92,16]},{"name":"上海","value":[121.48,31.22,12]},{"name":"香港","value":[114.17,22.28,1]},{"name":"河北","value":[114.48,38.03,1]},{"name":"江苏","value":[118.78,32.04,3]},{"name":"湖南","value":[113,28.21,2]}],"label":{"show":true,"color":"#000000","position":"right","formatter":"{b}:{@[2]}"},"rippleEffect":{"period":4,"scale":6,"brushType":"stroke"}},
+            ],
+            color: ["#c23531","#2f4554","#61a0a8","#d48265","#91c7ae","#749f83","#ca8622","#bda29a","#6e7074","#546570"],
+        };
+        myChart_bWvuJlKcnnkB.setOption(option_bWvuJlKcnnkB);
+    </script>
+
+        <br/>
+    <style>
+        .container {display: flex;justify-content: center;align-items: center;}
+        .item {margin: auto;}
+    </style>
+    <script>
+      // use plugins and options as needed, for options, detail see
+      // https://i18next.com/docs/
+      i18next.init({
+        lng: getCurrentLangByURLAutoFixToSupported(), // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
+        resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
+            'zh-CN': {
+                translation: {
+                    nav: {
+                        buy: '哪里买才得到？',
+                        whyisitsoexpensive: '为什么这么贵？',
+                        salesdataanalysisgallery: '销售数据分析艺廊',
+                    },
+                    content: {
+                        Title: 'LKY\'s 小红点 - 官方网站',    
+                    },
+                }
+            }, 
+            'zh-TW': {
+                translation: {
+                    nav: {
+                        buy: '哪裡買才得到？',
+                        whyisitsoexpensive: '為什麼這麼貴？',
+                        salesdataanalysisgallery: '銷售數據分析藝廊',
+                    },
+                    content: {
+                        Title: 'LKY\'s 小紅點 - 官方網站',   
+                    },
+                }
+            }, 
+            'en-US': {
+                translation: {
+                    nav: {
+                        buy: 'Buy',
+                        whyisitsoexpensive: 'Why is it so expensive？',
+                        salesdataanalysisgallery: 'Sales Data Analysis Gallery',
+                    },
+                    content: {
+                        Title: 'LKY\'s Soft-Rim TrackPoint - WebStie',    
+                    },
+                }
+            }
+        }
+      }, function(err, t) {
+        localize = locI18next.init(i18next);
+        localize('.nav');
+        localize('.content');
+    });
+    </script>
+</body>
+</html>

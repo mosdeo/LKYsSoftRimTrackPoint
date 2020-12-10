@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="content">
+        <title data-i18n="content.Title"></title>
+    </div>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js"></script>
+    <script src="js/loc-i18next.min.js"></script>
+    <script src="js/mytool.js"></script>
+</head>
+<body align="center">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-fixed-top">
+        <link type="text/css" rel="stylesheet" href="css/navibar.css"/>
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="#" onclick="resolveUrl('/');">LKY's ThinkPad Soft-Rim TrackPoint</a></li>
+                <li><a href="#" onclick="resolveUrl('/buy');" data-i18n="nav.buy"></a></li>
+                <li><a href="#" onclick="resolveUrl('/whyisitsoexpensive')" data-i18n="nav.whyisitsoexpensive"></a></li>
+                <li><a href="#" onclick="resolveUrl('/salesdataanalysisgallery')" data-i18n="nav.salesdataanalysisgallery"></a></li>
+                <li><a href="#" onclick="resolveUrlChangeLanguage('en-US')" class="languageswitch">En</a></li>
+                <li><a href="#" onclick="resolveUrlChangeLanguage('zh-TW')" class="languageswitch">繁</a></li>
+                <li><a href="#" onclick="resolveUrlChangeLanguage('zh-CN')" class="languageswitch">简</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 過了Navbar以後使用這個css -->
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+    <!-- 這一塊 div 用來填充 Navbar 背面的部分，結構要和 Navbar 一樣，寬度變窄的時候才能同步把後面的內容擠下去，不會被 Navbar 擋住 -->
+    <div class="night-style-fill-at-back-of-navbar">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div class="day-style">
+        <style scoped>
+            table { 
+                table-layout: fixed; 
+                align: center;
+            }
+            td { width: 30%; }
+            img.shopLogo {
+                top: 0;
+                left: 0;
+                width: 35%;
+            }
+        </style>
+        <div class="content">
+            <h2 class="head" data-i18n="content.Headline"></h2>
+        </div>
+        <h2><br></h2>
+        <table>
+            <tr>
+                <td name="蝦皮">
+                    <a target="_blank" href="https://shopee.tw/mosdeo/1885494569">
+                        <img class="shopLogo" style="width:55%;" src="https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-tw/assets/65141dbeecfe4528201f4aa07d9d8f28.png">
+                    </a>
+                </td>
+                <td name="淘寶">
+                    <a target="_blank" href="https://item.taobao.com/item.htm?id=587030319640">
+                        <img class="shopLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Taobao_Logo.svg/400px-Taobao_Logo.svg.png">
+                    </a>
+                </td>
+                <td name="Etsy">
+                    <a target="_blank" href="https://www.etsy.com/listing/666095744/pointing-stick-for-thinkpad-x1">
+                        <img class="shopLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Etsy_logo.svg/440px-Etsy_logo.svg.png">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="content">
+                        <h3 data-i18n="content.Taiwan.Name"></h3>
+                        <p data-i18n="content.Taiwan.ShippingDescription"></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="content">
+                        <h3 data-i18n="content.MainlandChina.Name"></h3>
+                        <p data-i18n="content.MainlandChina.ShippingDescription"></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="content">
+                        <h3 data-i18n="content.World.Name"></h3>
+                        <p data-i18n="content.World.ShippingDescription"></p>
+                    </div>
+                </td>
+            </tr>
+            <tr style="vertical-align: top;">
+                <td>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#ShopeeMobileFriendlyItemLink">
+                                    <div class="content">
+                                        <span data-i18n="content.Taiwan.ShowMobileFriendlyItemLink"></span>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="ShopeeMobileFriendlyItemLink" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <img height="144" style="box-shadow: rgb(204, 204, 204) 5px 5px 10px;" src="img/ShopeeItemQRcode.png" >
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">  
+                                <a data-toggle="collapse" data-parent="#accordion" href="#TaobaoMobileFriendlyItemLink">
+                                    <div class="content">
+                                        <span data-i18n="content.MainlandChina.ShowMobileFriendlyItemLink"></span>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="TaobaoMobileFriendlyItemLink" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p><textarea readonly id="taobaoItemAppToken">2.0 http:// 😺xQ8KcL5yDFY《噠閞℡👉🍑寳👈【凹-小红點(Soft Rim)ThinkPad X1/T430s，請在備註寫下要SLP或LP】</textarea></p>
+                                            <button onclick="CopyTextToClipboard()">Copy item token to clipboard<br>点我复制淘口令</button>
+                                            <script>
+                                                function CopyTextToClipboard() {
+                                                    var copyText = document.getElementById("taobaoItemAppToken");
+                                                    copyText.select();
+                                                    copyText.setSelectionRange(0, 99999)
+                                                    document.execCommand("copy");
+                                                    alert("Copied the text: " + copyText.value);
+                                                }
+                                            </script>
+                                        </td>
+                                        <td>
+                                            <img style="width:100%;" id="taobaoAppQRcode" src="img/TaobaoAppQRcode.JPG" >
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#EtsyMobileFriendlyItemLink">
+                                    <div class="content">
+                                        <span data-i18n="content.World.ShowMobileFriendlyItemLink"></span>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="EtsyMobileFriendlyItemLink" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <img height="144" style="box-shadow: rgb(204, 204, 204) 5px 5px 10px;" src="img/EtsyItemQRcode.png" >
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script>
+      // use plugins and options as needed, for options, detail see
+      // http://i18next.com/docs/
+      i18next.init({
+        lng: getCurrentLangByURLAutoFixToSupported(), // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
+        resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
+            'zh-CN': {
+                translation: {
+                    nav: {
+                        buy: '哪里买才得到？',
+                        whyisitsoexpensive: '为什么这么贵？',
+                        salesdataanalysisgallery: '销售数据分析艺廊',
+                    },
+                    content: {
+                        Title: 'LKY\'s 小红点 - 官方网站',
+                        Headline: '点一下，直接到我们上架的商品页面。',
+                        Taiwan:{
+                            Name: '台湾',
+                            ShippingDescription: '台中工作室产地直送，限7-11或全家超商取货，大约4天到货。',
+                            ShowMobileFriendlyItemLink: '显示网址 QR Code',
+                        },
+                        MainlandChina:{
+                            Name: '中国大陆',
+                            ShippingDescription: '目前广东发货，预设中通快递，大约4天到货。',
+                            ShowMobileFriendlyItemLink: '显示淘口令与淘宝 App QR Code',
+                        },
+                        World:{
+                            Name: '世界各地',
+                            ShippingDescription: '目前广东发货，预设中国邮政挂号信寄出，大约7~30天到货。',
+                            ShowMobileFriendlyItemLink: '显示网址 QR Code',
+                        },     
+                    },
+                }
+            }, 
+            'zh-TW': {
+                translation: {
+                    nav: {
+                        buy: '哪裡買才得到？',
+                        whyisitsoexpensive: '為什麼這麼貴？',
+                        salesdataanalysisgallery: '銷售數據分析藝廊',
+                    },
+                    content: {
+                        Title: 'LKY\'s 小紅點 - 官方網站',
+                        Headline: '點一下，直接到我們上架的商品頁面。',
+                        Taiwan:{
+                            Name: '台灣',
+                            ShippingDescription: '台中工作室產地直送，限7-11或全家超商取貨，大約4天到貨。',
+                            ShowMobileFriendlyItemLink: '顯示網址 QR Code',
+                        },
+                        MainlandChina:{
+                            Name: '中國大陸',
+                            ShippingDescription: '目前廣東發貨，預設中通快遞，大約4天到貨。',
+                            ShowMobileFriendlyItemLink: '顯示淘口令與淘寶 App QR Code',
+                        },
+                        World:{
+                            Name: '世界各地',
+                            ShippingDescription: '目前廣東發貨，預設中國郵政掛號信寄出，大約7~30天到貨。',
+                            ShowMobileFriendlyItemLink: '顯示網址 QR Code',
+                        },     
+                    },
+                }
+            }, 
+            'en-US': {
+                translation: {
+                    nav: {
+                        buy: 'Buy',
+                        whyisitsoexpensive: 'Why is it so expensive？',
+                        salesdataanalysisgallery: 'Sales Data Analysis Gallery',
+                        },
+                    content: {
+                        Title: 'LKY\'s Soft-Rim TrackPoint - WebStie',
+                        Headline: 'Click shop logo to buy it.',
+                        Taiwan:{
+                            Name: 'Taiwan',
+                            ShippingDescription: 'Ship from our workshop in Taichung, send by 7-11 or Family(全家), and will arrive in about 4 days.',
+                            ShowMobileFriendlyItemLink: 'Show link QR Code',
+                        },
+                        MainlandChina:{
+                            Name: 'Mainland China',
+                            ShippingDescription: 'Ship from Guangdong, send by ZTO(中通) default, and will arrive in about 4 days.',
+                            ShowMobileFriendlyItemLink: 'Show TaoBao app\'s item token(淘口令) and QR code',
+                        },
+                        World:{
+                            Name: 'World',
+                            ShippingDescription: 'Ship from Guangdong, send by China Post(中國郵政) by trackable letter, and will arrive in about 7 to 30 days.',
+                            ShowMobileFriendlyItemLink: 'Show link QR Code',
+                        },     
+                    },
+                }
+            }
+        }
+      }, function(err, t) {
+        localize = locI18next.init(i18next);
+        localize('.nav');
+        localize('.content');
+      });
+    </script>
+</body>
+</html>
