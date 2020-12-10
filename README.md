@@ -21,7 +21,8 @@
 
 - 官方列表更詳細，清單內可相容
 - More detail compatible type, in this official list  
-  - <https://accessorysmartfind.lenovo.com/#/products/0A33908>  
+  - <https://accessorysmartfind.lenovo.com/#/products/0A33908>
+  - [如果官方連結失效，請看這個備份（backup list）](CompatibleList-LowProfile.md)  
 
 ### Super Low Profile(SLP)
 
@@ -36,7 +37,7 @@
 - 官方列表更詳細，清單內可相容
 - More detail compatible type, in this official list  
   - <https://accessorysmartfind.lenovo.com/#/products/4XH0L55146>
-  - [如果官方連結失效，請看這個備份（backup list）](4XH0L55146_Compatible_Machines.md)
+  - [如果官方連結失效，請看這個備份（backup list）](CompatibleList-SuperLowProfile.md)
 
 ### ThinkPad X1 Carbon 7 Gen 需要打磨過後方可使用
 
