@@ -2,8 +2,7 @@
 
 ### TODO
 
-- 更改 repo 名稱（暫定 LKYsSoftRimTrackPoint）
-    - 與 Github 最早的 repo 合併
+- 相容性查詢頁面
 - Go 語言只留下跟數據分析藝廊相關的部分
     - echarts 指定區域渲染
 - 數據分析藝廊
@@ -12,9 +11,14 @@
 - Google 分析埋 tag
 - FAQ
 - 使用比較影片
-- 外連圖片抓到本機
 - 共用 head
 - 共用 navibar
+
+### 2020.12.10
+
+- 更改 repo 名稱為 LKYsSoftRimTrackPoint
+    - 與 Github 最早的 repo 合併
+- 外連圖片抓到本機
 
 ### 2020.12.9
 
