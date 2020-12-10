@@ -1,1 +1,4 @@
 **/.DS_Store
+ini/db.ini
+log/gin.log
+log/db.log
