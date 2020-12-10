@@ -9,6 +9,18 @@ import (
 )
 
 func main() {
+	// str, _ := ReadTxtToString("SmartFind_0A33908.mhtml")
+	// // fmt.Println(strings.Count(str, "\n"))
+	// str = strings.ReplaceAll(str, "=\r\n", "")
+	// fmt.Println(str)
+	// fmt.Println(strings.Count(str, "=\r"))
+	// fmt.Println(strings.Count(str, "=\n"))
+	// fmt.Println(strings.Count(str, "=\r\n"))
+	// fmt.Println(strings.Count(str, "=\r\n\r"))
+	// fmt.Println(strings.Count(str, "=\r\n\n"))
+	// // fmt.Println(strings.Count(str, "=\r\r"))
+	// return
+
 	LowProfileModelList := PrintModes("SmartFind_0A33908.mhtml")
 	SuperLowProfileModelList := PrintModes("SmartFind_4XH0L55146.mhtml")
 	fmt.Printf("LowProfileModelList      len = %d\n", len(LowProfileModelList))
@@ -28,14 +40,7 @@ func PrintModes(filePath string) []string {
 	var modelList []string
 	fileContent, _ := ReadTxtToString(filePath)
 
-	//替換符號(\x3D\x0A => "")
-	// oldStr :=
-	// fmt.Printf("len(fileContent)=%d\n", len(fileContent))
-	// fileContent = strings.ReplaceAll(fileContent, "=\n", "")
-	// fmt.Printf("len(fileContent)=%d\n", len(fileContent))
-	// fileContent = strings.ReplaceAll(fileContent, "=\r", "")
-	// fileContent = strings.ReplaceAll(fileContent, "=\r\n", "")
-	// fileContent = strings.ReplaceAll(fileContent, "=\n\r", "")
+	fileContent = strings.ReplaceAll(fileContent, "=\r\n", "")
 
 	//只取 tbody 區塊
 	fisrtTbodyIdx := strings.Index(fileContent, "<tbody>")
