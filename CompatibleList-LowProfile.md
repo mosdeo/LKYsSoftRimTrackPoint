@@ -1,0 +1,113 @@
+- ThinkPad 11e 1st Generation-20D9 MT
+- ThinkPad A475-20KL MT
+- ThinkPad A475-20KM MT
+- ThinkPad Dock-2631
+- ThinkPad Helix 2nd Generation-3
+- ThinkPad Helix 
+- ThinkPad R30
+- ThinkPad R31-2656
+- ThinkPad R30
+- ThinkPad R31-2657
+- ThinkPad R32-2658
+- ThinkPad R40-2682
+- ThinkPad R40-2683
+- ThinkPad R40-2722
+- ThinkPad R40-2723
+- ThinkPad R40-2724
+- ThinkPad R40-2892
+- ThinkPad R40-2893
+- ThinkPad R40-2896
+- ThinkPad R40-2897
+- ThinkPad 
+- ThinkPad R40
+- ThinkPad R50-18
+- ThinkPad R50e-1834
+- ThinkPad R50e-1842
+- ThinkPad R50e-2670
+- ThinkPad R50p-1832
+- ThinkPad R50p-1833
+- ThinkPad R51-2883
+- ThinkPad R51-2887
+- ThinkPad R51-2888
+- ThinkPad R51-2889
+- ThinkPad R51-2894
+- ThinkPad R51-2895
+- ThinkPad R51e-1843
+- ThinkPad R51e-1844
+- ThinkPad R51e-1845
+- ThinkPad S1 Yoga 12-20DK MT
+- ThinkPad S1 Yoga 12-20DL MT
+- ThinkPad S3 Yoga 14-20DM MT
+- ThinkPad S3 Yoga 14-20DN MT
+- ThinkPad S5 Yoga 15-20DQ MT
+- ThinkPad S5 Yoga 15-20DR MT
+- ThinkPad T40
+- ThinkPad 
+- ThinkPad T40
+- ThinkPad T41
+- ThinkPad T42-2373
+- ThinkPad T40
+- ThinkPad T41
+- ThinkPad T41
+- ThinkPad T42-2376
+- ThinkPad T40
+- ThinkPad T41
+- ThinkPad T42-2378
+- ThinkPad T40
+- ThinkPad T41
+- ThinkPad T42-2379
+- ThinkPad T43-1871
+- ThinkPad T43-1872
+- ThinkPad T43-1873
+- ThinkPad T43-1874
+- ThinkPad T43-1875
+- ThinkPad T43-1876
+- ThinkPad T43p-2668
+- ThinkPad T43p-2669
+- ThinkPad T43p-2678
+- ThinkPad T43p-2679
+- ThinkPad T43p-2686
+- ThinkPad T43p-2687
+- ThinkPad T
+- ThinkPad T60p
+- ThinkPad W540-20
+- ThinkPad W541-20
+- ThinkPad W541-20
+- ThinkPad W550s-2
+- ThinkPad W550s-
+- ThinkPad X270-
+- ThinkPad X300-
+- ThinkPad X31-2672
+- ThinkPad X31-2673
+- ThinkPad X31-2884
+- ThinkPad X31-2885
+- ThinkPad X31-2890
+- ThinkPad X31-2891
+- ThinkPad X40-2369
+- ThinkPad X40-2370
+- ThinkPad X40-2371
+- ThinkPad X40-2372
+- ThinkPad X40-2382
+- ThinkPad X40-2386
+- ThinkPad X41 Tablet-1867
+- ThinkPad X41 Tablet-1869
+- ThinkPad X41-1864
+- ThinkPad X41-1865
+- ThinkPad X41-1866
+- ThinkPad X41-1868
+- ThinkPad X41-2525
+- ThinkPad X41
+- ThinkPad X60 Tab
+- ThinkPad X60 
+- ThinkPad X
+- ThinkPad X60-2
+- ThinkPad X60S-2507
+- ThinkPad X60S-2508
+- ThinkPad X60S-2533
+- ThinkPad X61 Tablet-7668
+- ThinkPad X61 Tablet-7669
+- ThinkPad X61-8748
+- ThinkPad Yoga 260-20FD MT
+- ThinkPad Yoga 370-20J
+- ThinkPad Yoga 370
+- ThinkPad s30

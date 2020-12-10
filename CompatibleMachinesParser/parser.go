@@ -9,11 +9,23 @@ import (
 )
 
 func main() {
-	PrintModes("SmartFind_0A33908.mhtml")
-	PrintModes("SmartFind_4XH0L55146.mhtml")
+	LowProfileModelList := PrintModes("SmartFind_0A33908.mhtml")
+	SuperLowProfileModelList := PrintModes("SmartFind_4XH0L55146.mhtml")
+	fmt.Printf("LowProfileModelList      len = %d\n", len(LowProfileModelList))
+	fmt.Printf("SuperLowProfileModelList len = %d\n", len(SuperLowProfileModelList))
+	ModelListToMarkdown(LowProfileModelList, "CompatibleList-LowProfile.md")
+	ModelListToMarkdown(SuperLowProfileModelList, "CompatibleList-SuperLowProfile.md")
 }
 
-func PrintModes(filePath string) {
+func ModelListToMarkdown(modelList []string, fileName string) {
+	f, _ := os.Create("../" + fileName)
+	defer f.Close()
+
+	f.WriteString(strings.Join(modelList, "\n"))
+}
+
+func PrintModes(filePath string) []string {
+	var modelList []string
 	fileContent, _ := ReadTxtToString(filePath)
 
 	//只取 tbody 區塊
@@ -27,11 +39,18 @@ func PrintModes(filePath string) {
 	for _, txtline := range splitedFileContent {
 		cutIdx := strings.IndexFunc(txtline, func(r rune) bool { return '=' == r || '<' == r })
 		if -1 != cutIdx {
-			fmt.Printf("ThinkPad%s\n", txtline[:cutIdx])
-		} else {
-			fmt.Printf("ThinkPad%s\n", txtline)
+			txtline = txtline[:cutIdx]
 		}
+
+		if 0 == len(txtline) {
+			continue
+		}
+
+		fmt.Printf("ThinkPad%s\n", txtline)
+		modelList = append(modelList, fmt.Sprintf("- ThinkPad%s", txtline))
 	}
+
+	return modelList
 }
 
 func ReadTxtToString(filename string) (string, error) {

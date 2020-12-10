@@ -1,0 +1,27 @@
+- ThinkPad 13 1st Gen
+- ThinkPad 13 2nd Generation-20J1 MT
+- ThinkPad 13 2nd Generation-20J2 MT
+- ThinkPad L14-20U1 MT 2020
+- ThinkPad L14-20U2 MT 2020
+- ThinkPad L15-20U3 MT 2020
+- ThinkPad L15-20U4 MT 2020
+- ThinkPad P1 3rd Generation
+- ThinkPad P14s-20S4 MT 2020
+- ThinkPad P14s-20S5 MT 2020
+- ThinkPad P15-20ST MT 2020
+- ThinkPad P15-20SU MT 2020
+- ThinkPad P15g-20UR MT 2020
+- ThinkPad P15g-20US MT 2020
+- ThinkPad P15v-20TQ MT 2020
+- ThinkPad P15v-20TR MT 2020
+- ThinkPad P17-20SN MT 2020
+- ThinkPad P17-20SQ MT 20
+- ThinkPad T14-20S0 M
+- ThinkPad T14-20
+- ThinkPad T1
+- ThinkPad T14s-20T0 MT 2020
+- ThinkPad T14s-20T1 MT 2020
+- ThinkPad T15-20S6 MT 2020
+- ThinkPad T15-20S7 MT 2020
+- ThinkPad T15p-20TM MT 2020
+- ThinkPad T15p-20TN MT 2020
