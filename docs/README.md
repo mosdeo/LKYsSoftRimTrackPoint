@@ -19,7 +19,8 @@
 - 更改 repo 名稱為 LKYsSoftRimTrackPoint
     - 與 Github 最早的 repo 合併
 - 外連圖片抓到本機
-- - 抽取 navbar 的 i18n 文本到同一個文件中
+- 抽取 navbar 的 i18n 文本到同一個文件中
+- 相容性列表parser與存檔
 
 ### 2020.12.9
 
