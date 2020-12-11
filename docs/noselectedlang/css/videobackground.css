@@ -1,7 +1,7 @@
 #myVideo {
     right: 0;
     bottom: 0;
-    max-width: 100%; 
+    max-width: 101%; 
     }
 
 @media screen and (min-width: 1248px){
