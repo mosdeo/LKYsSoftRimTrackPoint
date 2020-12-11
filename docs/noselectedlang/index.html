@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js"></script>
     <script src="js/loc-i18next.min.js"></script>
     <script src="js/mytool.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/videobackground.css"/>
 </head>
 <body align="center">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -62,14 +63,31 @@
             <img src="img/SLP_and_LP.jpg" alt="SoftRim_TPU_SLPvsLP" style="max-width:70%;">
         </div>
     </div>
-    <div class="night-style">
-        <div class="content">
-            <h2 class="head"    data-i18n="content.StayOnSnow"></h2>
+    <div>
+        <div class="on-video-content content">
+            <h2 class="head" data-i18n="content.StayOnSnow"></h2>
             <h3 class="subhead" data-i18n="content.ShotAtHRBDateAndLowTemperature"></h3>
             <p><a class="price" data-i18n="content.Price"></a></p>
             <p><a class="tobuy" href="#" onclick="resolveUrl('/buy');" data-i18n="content.ToBuy"></a></p>
-            <img src="img/IMG_5293_fix.jpg" alt="冰天雪地中的小紅盤" style="width:50%;">
         </div>
+        <video autoplay muted loop id="myVideo">
+            <source src="img/IMG_5290_1080p_nosound.mov" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <script>
+            var video = document.getElementById("myVideo");
+            var btn = document.getElementById("myBtn");
+
+            function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+            }
+        </script>
     </div>
     <div class="day-style">
         <div class="content">
