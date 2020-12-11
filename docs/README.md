@@ -2,6 +2,7 @@
 
 ### TODO
 
+- <https://stackoverflow.com/questions/19632323/default-website-image-for-social-sharing>
 - 相容性查詢頁面
 - Go 語言只留下跟數據分析藝廊相關的部分
     - echarts 指定區域渲染
