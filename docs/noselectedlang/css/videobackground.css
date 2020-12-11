@@ -4,11 +4,22 @@
     max-width: 100%; 
     }
 
+@media screen and (min-width: 1366px){
+    .on-video-content {
+        position:absolute;
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (max-width: 1365px){
+    .on-video-content {
+        background: rgba(0, 0, 0, 1);
+    }
+}
+
 .on-video-content {
-    position:absolute;
     float:left;
     z-index:300000;
-    background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
