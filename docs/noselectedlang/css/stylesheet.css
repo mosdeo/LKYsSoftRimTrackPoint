@@ -23,6 +23,7 @@ a.price, a.price:hover {
 }
 
 a.tobuy {
+  margin: 18px;
   color: #2997ff;
   font-size: 18px;
 }
@@ -31,10 +32,16 @@ a.store-link {
   color: #1e1e1e8f;
   font-size: 28px;
 }
+
+div.day-style {
+  padding-top: 90px;
+  padding-bottom: 120px;
+  background-color: ghostwhite;
+}
     
 div.night-style {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 90px;
+  padding-bottom: 120px;
   background-color: #000000;
 }
 
@@ -42,12 +49,6 @@ div.night-style-fill-at-back-of-navbar {
   padding-top: 40px;
   padding-bottom: 10px;
   background-color: #000000;
-}
-
-div.day-style {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: ghostwhite;
 }
 
 div.night-style h2.head, 
