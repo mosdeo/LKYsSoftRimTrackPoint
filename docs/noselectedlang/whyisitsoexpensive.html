@@ -55,9 +55,11 @@
                 width: 35%;
             }
         </style>
-        <h2 class="head">覺得貴嗎？貴就對了！</h2>
-        <h2 class="head">便宜是留給爛大街的凸點。</h2>
-        <h2 class="head">加油！挑剔的人！</h2>
+        <div class="content">
+            <h2 class="head" data-i18n="content.Headline1"></h2>
+            <h2 class="head" data-i18n="content.Headline2"></h2>
+            <h2 class="head" data-i18n="content.Headline3"></h2>
+        </div>
         <h2></br></h2>
         <a target="_blank" href="https://github.com/mosdeo/Homemade_ThinkPad_soft-rim_pointing-stick/blob/master/TooExpensive.md">
             <h4 style="color: #AAAAAA; font-weight:lighter;">閱讀我們正經八百又長篇大論的回答。</h4>
@@ -65,5 +67,44 @@
         <h2></br></h2>
     </div>
     <script src="js/i18n-text-navibar.js"></script>
+    <script>
+      // use plugins and options as needed, for options, detail see
+      // http://i18next.com/docs/
+      i18next.init({
+        lng: getCurrentLangByURLAutoFixToSupported(), // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
+        resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
+            'zh-CN': {
+                translation: {
+                    content: {
+                        Headline1: "大家都在内卷，凭什么你过得比别人爽？",
+                        Headline2: "你家拆迁了？考公上岸了？",
+                        Headline3: "都没有，那还是想想怎么减少劳损吧，免得卷不动了。",  
+                    },
+                }
+            }, 
+            'zh-TW': {
+                translation: {
+                    content: {
+                        Headline1: "「工欲善其事，必先利其器」",
+                        Headline2: "忍受不好的工具也有成本，必要的生產工具，買不買都要付出成本",
+                        Headline3: "你今年刷了幾次健保卡？對身體好一點吧。",
+                    },
+                }
+            }, 
+            'en-US': {
+                translation: {
+                    content: {
+                        Headline1: "Comfortable TrackPoint make your finger easier",
+                        Headline2: "Controllable TrackPoint make your work efficiently",
+                        Headline3: "Or, tolerate the original Soft-Dome.", 
+                    },
+                }
+            }
+        }
+      }, function(err, t) {
+        localize = locI18next.init(i18next);
+        localize('.content');
+    });
+    </script>
 </body>
 </html>
