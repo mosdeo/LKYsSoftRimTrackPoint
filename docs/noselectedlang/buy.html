@@ -50,11 +50,19 @@
                 table-layout: fixed; 
                 align: center;
             }
-            td { width: 30%; }
+            td { 
+                width: 30%; 
+            }
+            p.shipping-description {
+                margin: 30px;
+            }
             img.shopLogo {
                 top: 0;
                 left: 0;
                 width: 35%;
+            }
+            .expansion-box{
+                margin: 15px;
             }
         </style>
         <div class="content">
@@ -83,25 +91,39 @@
                 <td>
                     <div class="content">
                         <h3 data-i18n="content.Taiwan.Name"></h3>
-                        <p data-i18n="content.Taiwan.ShippingDescription"></p>
+                        <p class="shipping-description" data-i18n="content.Taiwan.ShippingDescription"></p>
                     </div>
                 </td>
                 <td>
                     <div class="content">
                         <h3 data-i18n="content.MainlandChina.Name"></h3>
-                        <p data-i18n="content.MainlandChina.ShippingDescription"></p>
+                        <p class="shipping-description" data-i18n="content.MainlandChina.ShippingDescription"></p>
                     </div>
                 </td>
                 <td>
                     <div class="content">
                         <h3 data-i18n="content.World.Name"></h3>
-                        <p data-i18n="content.World.ShippingDescription"></p>
+                        <p class="shipping-description" data-i18n="content.World.ShippingDescription"></p>
                     </div>
                 </td>
             </tr>
+        </table>
+        <h2><br></h2>
+        <table>
+            <tr>
+                <td></td>
+                <td>
+                <div class="content">
+                    <h2 class="head" data-i18n="content.Headline2"></h2>
+                    <h2 class="head" data-i18n="content.Headline3"></h2>
+                </div>
+                <h2><br></h2>
+                </td>
+                <td></td>
+            </tr>
             <tr style="vertical-align: top;">
                 <td>
-                    <div class="panel panel-default">
+                    <div class="panel panel-default expansion-box">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#ShopeeMobileFriendlyItemLink">
@@ -119,7 +141,7 @@
                     </div>
                 </td>
                 <td>
-                    <div class="panel panel-default">
+                    <div class="panel panel-default expansion-box">
                         <div class="panel-heading">
                             <h4 class="panel-title">  
                                 <a data-toggle="collapse" data-parent="#accordion" href="#TaobaoMobileFriendlyItemLink">
@@ -156,7 +178,7 @@
                     </div>
                 </td>
                 <td>
-                    <div class="panel panel-default">
+                    <div class="panel panel-default expansion-box">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#EtsyMobileFriendlyItemLink">
@@ -187,6 +209,8 @@
                 translation: {
                     content: {
                         Headline: '点一下，直接到我们上架的商品页面。',
+                        Headline2: '用手机？还是平板？',
+                        Headline3: '没事兒，有二维码或淘口令。',
                         Taiwan:{
                             Name: '台湾',
                             ShippingDescription: '台中工作室产地直送，限7-11或全家超商取货，大约4天到货。',
@@ -209,6 +233,8 @@
                 translation: {
                     content: {
                         Headline: '點一下，直接到我們上架的商品頁面。',
+                        Headline2: '用行動裝置？',
+                        Headline3: '沒關係，我們有方便的連結。',
                         Taiwan:{
                             Name: '台灣',
                             ShippingDescription: '台中工作室產地直送，限7-11或全家超商取貨，大約4天到貨。',
@@ -231,6 +257,8 @@
                 translation: {
                     content: {
                         Headline: 'Click shop logo to buy it.',
+                        Headline2: 'Or use mobile friendly way.',
+                        Headline3: '',
                         Taiwan:{
                             Name: 'Taiwan',
                             ShippingDescription: 'Ship from our workshop in Taichung, send by 7-11 or Family(全家), and will arrive in about 4 days.',
