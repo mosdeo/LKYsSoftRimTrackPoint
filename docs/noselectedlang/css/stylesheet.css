@@ -15,6 +15,19 @@ body {
   background-color: ghostwhite;
 }
 
+@media only screen and (orientation: landscape) {
+  img.index {
+    max-width:70%;
+  }
+}
+
+@media not screen {
+  img.index {
+    width:100%;
+    height: auto;
+  }
+}
+
 a.price, a.price:hover {
   color: #777777;
   text-decoration: none;
@@ -34,12 +47,14 @@ a.store-link {
 }
 
 div.day-style {
+  /* border: 1px solid #4CAF50; */
   padding-top: 90px;
   padding-bottom: 120px;
   background-color: ghostwhite;
 }
     
 div.night-style {
+  /* border: 1px solid #4CAF50; */
   padding-top: 90px;
   padding-bottom: 120px;
   background-color: #000000;
