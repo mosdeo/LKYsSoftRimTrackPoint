@@ -15,28 +15,32 @@ body {
   background-color: ghostwhite;
 }
 
-@media only screen and (orientation: landscape) {
+@media (min-width: 1248px){
   img.index {
-    max-width:70%;
+    max-width:75%;
   }
 }
 
-@media not screen {
+@media (max-width: 1248px){
   img.index {
-    width:100%;
-    height: auto;
+    max-width:100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
 a.price, a.price:hover {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
   color: #777777;
   text-decoration: none;
-  font-size: 16px;
   font-weight: normal;
 }
 
 a.tobuy {
-  margin: 18px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   color: #2997ff;
   font-size: 18px;
 }
