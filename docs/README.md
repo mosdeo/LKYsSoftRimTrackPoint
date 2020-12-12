@@ -3,6 +3,8 @@
 ### TODO
 
 - <https://stackoverflow.com/questions/19632323/default-website-image-for-social-sharing>
+    - 目前 FB 似乎無法正確辨認 meta 語言，很麻煩，這樣會造成預覽到的文案跟使用者語言對不上。
+    - <https://stackoverflow.com/questions/13923944/how-can-i-internationalize-meta-og-tags-to-be-parsed-correctly-by-facebook>
 - 相容性查詢頁面
 - Go 語言只留下跟數據分析藝廊相關的部分
     - echarts 指定區域渲染
@@ -14,6 +16,10 @@
 - 使用比較影片
 - 共用 head
 - 共用 navibar
+
+### 2020.12.12
+
+- RWD: 根據裝置改變圖片寬度
 
 ### 2020.12.11
 
