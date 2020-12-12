@@ -11,13 +11,14 @@ h3.subhead {
 }
   
 body {
+  text-align: center;
   font-family: "SF Pro TC","SF Pro Text","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
   background-color: ghostwhite;
 }
 
 @media (min-width: 1248px){
   img.index {
-    max-width:75%;
+    max-width:70%;
   }
 }
 
