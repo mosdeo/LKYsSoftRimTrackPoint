@@ -2,3 +2,5 @@
 ini/db.ini
 log/gin.log
 log/db.log
+DAPageGenerator/ini/db.ini
+DAPageGenerator/examples/html/*
