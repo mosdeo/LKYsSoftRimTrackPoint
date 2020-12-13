@@ -8,6 +8,9 @@
 - 相容性查詢頁面
 - Go 語言只留下跟數據分析藝廊相關的部分
     - echarts 指定區域渲染
+    - 大中華區銷量地圖
+    - Bar data-zoom-slider
+    - 地址文字雲
 - 數據分析藝廊
     - 抄 <https://matplotlib.org/gallery/index.html>
 - 認真賣貴理由的頁面
@@ -18,8 +21,13 @@
 - 共用 navibar
 - navibar RWD
 
+### 2020.12.13
+
+- 初步產生數據藝廊模板
+
 ### 2020.12.12
 
+- 賣貴理由的文案修改，三種語言各寫一版
 - RWD: 根據裝置改變圖片寬度
     - @media {device type} 一直失敗，只能直接設定像素範圍，搞不清楚問題是什麼
 
