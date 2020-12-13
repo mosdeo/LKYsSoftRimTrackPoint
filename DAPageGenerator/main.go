@@ -20,8 +20,6 @@ type Exampler interface {
 }
 
 func main() {
-	//為 GeoExamples{} 產生數據
-	世界各地訂單累計數量地圖()
 
 	examplers := []Exampler{
 		BarExamples{},

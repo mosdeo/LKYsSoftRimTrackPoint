@@ -88,3 +88,12 @@ func ChinaProvincialRegionList() []Region {
 		{"澳门", Coordinate{113.54, 22.19}},
 	}
 }
+
+var replaceMap map[string]string = map[string]string{
+	"上海上海市":  "上海市",
+	"上海 上海市": "上海市",
+	"北京北京市":  "北京市",
+	"北京 北京市": "北京市",
+	"天津天津市":  "天津市",
+	"天津 天津市": "天津市",
+}
