@@ -9,6 +9,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js"></script>
     <script src="js/loc-i18next.min.js"></script>
     <script src="js/mytool.js"></script>
+    <script src="https://go-echarts.github.io/go-echarts-assets/assets/echarts.min.js"></script>
+    <script src="https://go-echarts.github.io/go-echarts-assets/assets/echarts-wordcloud.min.js"></script>
     <link type="text/css" rel="stylesheet" href="css/videobackground.css"/>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
     <link type="text/css" rel="stylesheet" href="css/navibar.css"/>
@@ -18,6 +20,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <nav class="navbar navbar-fixed-top">
+        <link type="text/css" rel="stylesheet" href="css/navibar.css"/>
         <div class="container-fluid">
             <ul class="nav navbar-nav">
                 <li><a href="#" onclick="resolveUrl('/');">LKY's ThinkPad Soft-Rim TrackPoint</a></li>
@@ -44,26 +47,31 @@
             </ul>
         </div>
     </div>
-    <div class="day-style">
-        <style scoped>
-            table { table-layout: fixed; }
-            td { width: 30%; }
-            img {
-                top: 0;
-                left: 0;
-                width: 35%;
-            }
-        </style>
-        <a href="#" onclick="resolveUrl('/salemapofchinese');">
-            <h3 class="subhead">大中華區銷量地圖</h3>
-        </a>
-        <a href="#" onclick="resolveUrl('/wherebuyers');">
-            <h3 class="subhead">都是哪些人在買我們的凹小紅點？</h3>
-        </a>
-        <a href="">
-            <h3 class="subhead">大孔𝖷小孔𝖷款式（還沒做）</h3>
-        </a>
+    <p>
+        <h2 class="head">都是哪些人在買我們的凹小紅點？（統計至 2020/11）</h2>
+    </p>
+    <div class="container" align="center">
+        <div class="item" id="NBiKzlXdMPJb" style="width:900px;height:500px;"></div>
     </div>
+    <p>
+        <h4 style="color: #666666; font-weight:lighter;">註: 我們在台灣的物流，幾乎都用蝦皮便利商店寄取件，平台上缺乏方便導出採購地的方式，因此不在上圖計算範圍內。</h3>
+    </p>
+    <script type="text/javascript">
+        "use strict";
+        var myChart_NBiKzlXdMPJb = echarts.init(document.getElementById('NBiKzlXdMPJb'), "white");
+        var option_NBiKzlXdMPJb = {
+            // title: {"text":"WordCloud-shape-cardioid"},
+            tooltip: {"show":false},
+            legend: {"show":false},
+        
+        
+            series: [
+            {"name":"wordcloud","type":"wordCloud","waveAnimation":false,"shape":"cardioid","sizeRange":[14,80],"data":[{"name":"浙江省","value":4},{"name":" 南山区","value":3},{"name":" 深圳市","value":5},{"name":"上海市","value":10},{"name":" 大屯街道","value":3},{"name":" 广州市","value":5},{"name":"广东省","value":12},{"name":"江苏省","value":3},{"name":" 朝阳区","value":7},{"name":"福建省","value":4},{"name":" 高行镇","value":4},{"name":" 浦东新区","value":6},{"name":"北京市","value":13},{"name":" 海淀区","value":5}],"textStyle":{"normal":{"color":function () {return 'rgb(' + [Math.round(Math.random() * 160),Math.round(Math.random() * 160),Math.round(Math.random() * 160)].join(',') + ')';}}}},
+            ],
+            color: ["#c23531","#2f4554","#61a0a8","#d48265","#91c7ae","#749f83","#ca8622","#bda29a","#6e7074","#546570"],
+        };
+        myChart_NBiKzlXdMPJb.setOption(option_NBiKzlXdMPJb);
+    </script>
     <script src="js/i18n-text-navibar.js"></script>
     <script>
       // use plugins and options as needed, for options, detail see
