@@ -38,7 +38,7 @@ func main() {
 		// examples.LiquidExamples{},
 		// examples.MapExamples{},
 		// examples.ParallelExamples{},
-		// examples.PieExamples{},
+		PieExamples{},
 		// examples.RadarExamples{},
 		// examples.CustomizeExamples{},
 		// examples.SankeyExamples{},
