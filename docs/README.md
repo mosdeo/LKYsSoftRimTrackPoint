@@ -21,7 +21,7 @@
 - 共用 head
 - 共用 navibar
 
-### 2020.12.25
+### 2020.12.25 🎄🤶🏻🎅🏻🧑🏽‍🎄
 
 - Navbar 架構大改，採用「梅問題」（https://photo.minwt.com/file/sampleView/bootstrap/bs-nav-too-long.html）提供的範例再修改。
 
