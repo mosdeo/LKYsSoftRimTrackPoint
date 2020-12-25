@@ -5,46 +5,53 @@
         <title data-i18n="nav.title"></title>
     </div>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js"></script>
     <script src="js/loc-i18next.min.js"></script>
     <script src="js/mytool.js"></script>
     <link type="text/css" rel="stylesheet" href="css/videobackground.css"/>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
     <link type="text/css" rel="stylesheet" href="css/navibar.css"/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" lang="en_US" content="LKY's Soft-Rim TrackPoint">
+    <meta property="og:title" lang="zh_CN" content="LKY's 凹小红点">
+    <meta property="og:title" lang="zh_TW" content="LKY's 凹小紅點">
+    <meta property="og:description" lang="en_US" content="Make TrackPoint great again！">
+    <meta property="og:description" lang="zh_CN" content="小作坊就是不讲武德，劝原厂耗子尾汁！">
+    <meta property="og:description" lang="zh_TW" content="沒有人需要為他的小紅點認同而委屈">
+    <meta property="og:image" content="noselectedlang/img/SoftRim_TPU.jpg">
+    <meta property="og:url" content="https://mosdeo.github.io/LKYsSoftRimTrackPoint/">
 </head>
 <body>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <nav class="navbar navbar-fixed-top">
-        <link type="text/css" rel="stylesheet" href="css/navibar.css"/>
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
-                <li><a href="#" onclick="resolveUrl('/');">LKY's ThinkPad Soft-Rim TrackPoint</a></li>
-                <li><a href="#" onclick="resolveUrl('/buy');" data-i18n="nav.buy"></a></li>
-                <li><a href="#" onclick="resolveUrl('/whyisitsoexpensive')" data-i18n="nav.whyisitsoexpensive"></a></li>
-                <li><a href="#" onclick="resolveUrl('/salesdataanalysisgallery')" data-i18n="nav.salesdataanalysisgallery"></a></li>
-                <li><a href="#" onclick="resolveUrlChangeLanguage('en-US')" class="languageswitch">En</a></li>
-                <li><a href="#" onclick="resolveUrlChangeLanguage('zh-TW')" class="languageswitch">繁</a></li>
-                <li><a href="#" onclick="resolveUrlChangeLanguage('zh-CN')" class="languageswitch">简</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- 這一塊 div 用來填充 Navbar 背面的部分，結構要和 Navbar 一樣，寬度變窄的時候才能同步把後面的內容擠下去，不會被 Navbar 擋住 -->
-    <div class="night-style-fill-at-back-of-navbar">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+    <div class="navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" onclick="resolveUrl('/');">LKY's ThinkPad Soft-Rim TrackPoint</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" onclick="resolveUrl('/buy');" data-i18n="nav.buy"></a></li>
+                    <li><a href="#" onclick="resolveUrl('/whyisitsoexpensive')" data-i18n="nav.whyisitsoexpensive"></a></li>
+                    <li><a href="#" onclick="resolveUrl('/salesdataanalysisgallery')" data-i18n="nav.salesdataanalysisgallery"></a></li>
+                    <li><a href="#" onclick="resolveUrlChangeLanguage('en-US')" class="languageswitch">En</a></li>
+                    <li><a href="#" onclick="resolveUrlChangeLanguage('zh-TW')" class="languageswitch">繁</a></li>
+                    <li><a href="#" onclick="resolveUrlChangeLanguage('zh-CN')" class="languageswitch">简</a></li>
+                </ul>
+            </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
     <div class="day-style">
         <style scoped>
             table { table-layout: fixed; }
