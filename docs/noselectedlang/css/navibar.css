@@ -35,6 +35,10 @@
     background-color: #000000; 
 }
 
+.icon-bar{
+    background-color: #eeeeee;
+}
+
 /* 以下取自「梅問題」再修改 */
 .navbar-brand{
     display: inline-block;
