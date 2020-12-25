@@ -16,13 +16,13 @@ body {
   background-color: ghostwhite;
 }
 
-@media (min-width: 1248px){
+@media (min-width: 992px){
   img.index {
     max-width:70%;
   }
 }
 
-@media (max-width: 1248px){
+@media (max-width: 991px) {
   img.index {
     max-width:100%;
     padding-left: 0px;
