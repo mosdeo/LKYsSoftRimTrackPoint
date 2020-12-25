@@ -20,7 +20,10 @@
 - 使用比較影片
 - 共用 head
 - 共用 navibar
-- navibar RWD
+
+### 2020.12.25
+
+- Navbar 架構大改，採用「梅問題」（https://photo.minwt.com/file/sampleView/bootstrap/bs-nav-too-long.html）提供的範例再修改。
 
 ### 2020.12.14
 
