@@ -1,30 +1,25 @@
-.container-fluid
+/* 半透明模糊效果 */
+.navbar
 {
     background-color: rgba(0, 0, 0, 0.85); 
     backdrop-filter: blur(6px);
-    font-size: 14px;
-    margin: 0 auto;
 }
 
-.navbar-header > a:link,
-.navbar-header > a:visited,
+.navbar-brand:link,
+.navbar-brand:visited,
 .navbar .navbar-nav > li > a:link,
 .navbar .navbar-nav > li > a:visited
 {
     color: #D4D4D4;
 }
 
-.navbar-header > a:hover,
-.navbar-header > a:focus,
+.navbar-brand:hover,
+.navbar-brand:focus,
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus
 {
     color: #FFFFFF;
-    background-color: #444444; 
-}
-
-.navbar-nav li{
-    display: inline-block;
+    background-color: #000000; 
 }
 
 .navbar .navbar-nav > li > a.languageswitch:link,
@@ -32,48 +27,50 @@
 {
     color: #797979;  
 }
+
 .navbar .navbar-nav > li > a.languageswitch:hover,
 .navbar .navbar-nav > li > a.languageswitch:focus
 {
-    color: #D4D4D4;
+    color: #eeeeee;
     background-color: #000000; 
 }
 
-/* 以下取自「梅問題」 */
+/* 以下取自「梅問題」再修改 */
 .navbar-brand{
     display: inline-block;
+    font-size: 14px; /* 強制與其他navbar文字統一大小 */
 }
 @media (max-width: 991px) {
-.navbar-header {
-    float: none;
-}
-.navbar-toggle {
-    display: block;
-}
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
 
-.navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-}
-.navbar-collapse.collapse {
-    display: none!important;
-}
-.navbar-nav>li {
-    float: none;
-}
-.navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-/* .navbar-text {
-    float: none;
-    margin: 15px 0;
-} */
-/* since 3.1.0 */
-.navbar-collapse.collapse.in { 
-    display: block!important;
-}
-.collapsing {
-    overflow: hidden!important;
-}
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
 }
