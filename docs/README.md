@@ -21,6 +21,10 @@
 - 共用 head
 - 共用 navibar
 
+### 2021.1.9
+
+- 把 bootstrap.min.css 與 bootstrap.min.js 更換為由 BootCDN 取得，解決在中國大陸經常失效的問題
+
 ### 2020.12.25 🎄🤶🏻🎅🏻🧑🏽‍🎄
 
 - Navbar 架構大改，採用「梅問題」（https://photo.minwt.com/file/sampleView/bootstrap/bs-nav-too-long.html）提供的範例再修改。
