@@ -23,10 +23,15 @@ func main() {
 
 	LowProfileModelList := PrintModes("SmartFind_0A33908.mhtml")
 	SuperLowProfileModelList := PrintModes("SmartFind_4XH0L55146.mhtml")
+	ThinkPad3mmModelList := PrintModes("SmartFind_4XH0X88960.mhtml")
+
 	fmt.Printf("LowProfileModelList      len = %d\n", len(LowProfileModelList))
 	fmt.Printf("SuperLowProfileModelList len = %d\n", len(SuperLowProfileModelList))
+	fmt.Printf("ThinkPad3mmModelList len = %d\n", len(ThinkPad3mmModelList))
+
 	ModelListToMarkdown(LowProfileModelList, "CompatibleList-LowProfile.md")
 	ModelListToMarkdown(SuperLowProfileModelList, "CompatibleList-SuperLowProfile.md")
+	ModelListToMarkdown(SuperLowProfileModelList, "CompatibleList-ThinkPad3mm.md")
 }
 
 func ModelListToMarkdown(modelList []string, fileName string) {
