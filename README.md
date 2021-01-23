@@ -104,8 +104,8 @@ A5：除非數量很多並且預付款項，否則不接受面交。因為我們
 台灣一篇 Blog 詳述了這個問題的來龍去脈  
 <https://blog.abev66.tw/2017/12/soft-rim.html> 
 
-同樣用過 Saoto 產品的一名福建人，為我們產品所寫的詳細開箱與體驗  
-[《重新爱上小红点 —— LKY 自制 ThinkPad 小红盘使用评测》](https://blog.skk.moe/post/lky-softrim/)
+《重新爱上小红点 —— LKY 自制 ThinkPad 小红盘使用评测》  
+<https://blog.skk.moe/post/lky-softrim/>
 
 《可能，ThinkPad会有原生红学家》  
 <https://www.chiphell.com/thread-2222550-1-1.html>
