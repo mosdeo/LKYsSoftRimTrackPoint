@@ -98,8 +98,8 @@ A5：除非數量很多並且預付款項，否則不接受面交。因為我們
 
 ## 參考連結
 
-同樣也有自製販售的日本人 saoto  
-<https://twitter.com/saoto28/status/970907971499712512>
+《来自LKY的ThinkPad凹小红点动手玩》  
+<https://mrzan.xyz/662>
 
 台灣一篇 Blog 詳述了這個問題的來龍去脈  
 <https://blog.abev66.tw/2017/12/soft-rim.html> 
