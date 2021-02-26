@@ -31,7 +31,7 @@ func main() {
 
 	ModelListToMarkdown(LowProfileModelList, "CompatibleList-LowProfile.md")
 	ModelListToMarkdown(SuperLowProfileModelList, "CompatibleList-SuperLowProfile.md")
-	ModelListToMarkdown(SuperLowProfileModelList, "CompatibleList-ThinkPad3mm.md")
+	ModelListToMarkdown(ThinkPad3mmModelList, "CompatibleList-ThinkPad3mm.md")
 }
 
 func ModelListToMarkdown(modelList []string, fileName string) {
