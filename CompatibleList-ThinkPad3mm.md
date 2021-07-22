@@ -1,11 +1,17 @@
 - C13 Yoga G1 Chromebook-20UX MT 2020
 - C13 Yoga G1 Chromebook-20UY MT 2020
+- T14s 2nd Generation-20WM - T14s Gen 2
+- T14s 2nd Generation-20WN - T14s Gen 2
+- T14s AMD G2-20XF - T14s AMD Gen 2
+- T14s AMD G2-20XG - T14s AMD Gen 2
 - X1 Carbon 7th Generation-20QD MT
 - X1 Carbon 7th Generation-20QE MT
 - X1 Carbon 7th Generation-20R1 MT
 - X1 Carbon 7th Generation-20R2 MT
 - X1 Carbon 8th Generation-20U9 MT 2020
 - X1 Carbon 8th Generation-20UA MT 2020
+- X1 Carbon 9th Generation-20XW - X1 Carbon Gen 9
+- X1 Carbon 9th Generation-20XX - X1 Carbon Gen 9
 - X1 Nano-20UN MT 2020
 - X1 Nano-20UQ MT 2020
 - X1 Titanium G1-20QA MT 2020
@@ -16,5 +22,13 @@
 - X1 Yoga 4th Generation-20SB MT
 - X1 Yoga 5th Generation-20UB MT 2020
 - X1 Yoga 5th Generation-20UC MT 2020
-- X12 Detachable G1-20UV MT 2020
-- X12 Detachable G1-20UW MT 2020
+- X1 Yoga 6th Generation-20XY - X1 Yoga Gen 6
+- X1 Yoga 6th Generation-20Y0 - X1 Yoga Gen 6
+- X12 Detachable 1st Generation-20UV MT 2020
+- X12 Detachable 1st Generation-20UW MT 2020
+- X13 AMD G2-20XH - X13 AMD Gen 2
+- X13 AMD G2-20XJ - X13 AMD Gen 2
+- X13 G2-20WK - X13 Gen 2
+- X13 G2-20WL - X13 Gen 2
+- X13 Yoga 2nd Generation-20W8 MT 2021
+- X13 Yoga 2nd Generation-20W9 MT 2021

@@ -21,9 +21,9 @@ func main() {
 	// // fmt.Println(strings.Count(str, "=\r\r"))
 	// return
 
-	LowProfileModelList := PrintModes("SmartFind_0A33908.mhtml")
-	SuperLowProfileModelList := PrintModes("SmartFind_4XH0L55146.mhtml")
-	ThinkPad3mmModelList := PrintModes("SmartFind_4XH0X88960.mhtml")
+	LowProfileModelList := PrintModes("SmartFind_0A33908.mht")
+	SuperLowProfileModelList := PrintModes("SmartFind_4XH0L55146.mht")
+	ThinkPad3mmModelList := PrintModes("SmartFind_4XH0X88960.mht")
 
 	fmt.Printf("LowProfileModelList      len = %d\n", len(LowProfileModelList))
 	fmt.Printf("SuperLowProfileModelList len = %d\n", len(SuperLowProfileModelList))

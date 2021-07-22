@@ -176,6 +176,7 @@
 - ThinkPad W550s-20E1 MT
 - ThinkPad W550s-20E2 MT
 - ThinkPad X270-20KC MT
+- ThinkPad X270-20KD MT
 - ThinkPad X300-4183
 - ThinkPad X31-2672
 - ThinkPad X31-2673
