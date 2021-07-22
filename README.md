@@ -39,7 +39,7 @@
   - <https://accessorysmartfind.lenovo.com/#/products/4XH0L55146>
   - [如果官方連結失效，請看這個備份（backup list）](CompatibleList-SuperLowProfile.md)
 
-### ThinkPad X1 Carbon 7 Gen 與 X1 Nano 需要打磨過後方可使用
+### ThinkPad X1 Carbon 7/8/9 Gen 與 X1 Nano 需要打磨過後方可使用
 
 由於我本身沒有這台電腦可以測試，所以仰賴勇敢的網友幫忙測試，得到以下結果：
 
