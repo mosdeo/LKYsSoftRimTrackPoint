@@ -50,9 +50,9 @@
 
 蝦皮網友dennytung磨好的樣子：
 
-![](pictures/shopee_dennytung/IMG_0710.JPG)
-![](pictures/shopee_dennytung/IMG_0711.JPG)
-![](pictures/shopee_dennytung/IMG_0712.JPG)
+<img width="30%" src="pictures/shopee_dennytung/IMG_0710.JPG">
+<img width="30%" src="pictures/shopee_dennytung/IMG_0711.JPG">
+<img width="30%" src="pictures/shopee_dennytung/IMG_0712.JPG">
 
 ### 已知不可用型號 Incompatible
 
