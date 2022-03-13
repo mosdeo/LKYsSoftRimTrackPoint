@@ -41,12 +41,18 @@
 
 ### ThinkPad X1 Carbon 7/8/9 Gen 與 X1 Nano 需要打磨過後方可使用
 
-由於我本身沒有這台電腦可以測試，所以仰賴勇敢的網友幫忙測試，得到以下結果：
+由於我本身沒有這台電腦可以測試，所以仰賴勇敢的幾位網友幫忙測試，得到以下結果：
 
 - 孔洞大小與 SLP 一樣，但高度較低
-- 用銼刀磨 20 分鐘，就能磨到可以用
+- 用400號砂紙磨 20 分鐘，就能磨到至少可以用。最後可以用1000號砂紙修飾外表。
 - 如果磨的不夠短，蓋上蓋子以後會無法自動休眠
 - 該網友提供的參考照片 <https://photos.app.goo.gl/yF3PcBu1QVKfFNjG6>
+
+蝦皮網友dennytung磨好的樣子：
+
+![](pictures/shopee_dennytung/IMG_0710.JPG)
+![](pictures/shopee_dennytung/IMG_0711.JPG)
+![](pictures/shopee_dennytung/IMG_0712.JPG)
 
 ### 已知不可用型號 Incompatible
 
