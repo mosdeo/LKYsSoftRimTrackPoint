@@ -54,7 +54,7 @@
   <img width="30%" src="pictures/shopee_dennytung/IMG_0710.JPG">
   <img width="30%" src="pictures/shopee_dennytung/IMG_0711.JPG">
   <img width="30%" src="pictures/shopee_dennytung/IMG_0712.JPG">
-<figure>
+</figure>
 
 ### 已知不可用型號 Incompatible
 
