@@ -1,9 +1,46 @@
 - C13 Yoga G1 Chromebook-20UX MT 2020
 - C13 Yoga G1 Chromebook-20UY MT 2020
+- L13 Clam AMD G3-21B9 - L13 Clam Gen 3
+- L13 Clam AMD G3-21BA - L13 Clam Gen 3
+- L13 Clam G3-21B3 - L13 Clam Gen 3
+- L13 Clam G3-21B4 - L13 Clam Gen 3
+- L13 Yoga AMD G3-21BB - L13 Yoga Gen 3
+- L13 Yoga AMD G3-21BC - L13 Yoga Gen 3
+- L13 Yoga G3-21B5 - L13 Yoga Gen 3
+- L13 Yoga G3-21B6 - L13 Yoga Gen 3
+- L14 AMD G3-21C5 - L14 Gen 3
+- L14 AMD G3-21C6 - L14 Gen 3
+- L14 G3-21C1 - L14 Gen 3
+- L14 G3-21C2 - L14 Gen 3
+- L15 AMD G3-21C7 - L15 Gen 3
+- L15 AMD G3-21C8 - L15 Gen 3
+- L15 G3-21C3 - L15 Gen 3
+- L15 G3-21C4 - L15 Gen 3
+- P1 G4-20Y3 - P1 Gen 4
+- P1 G4-20Y4 - P1 Gen 4
+- P1 G5-21DC - P1 Gen 5
+- P1 G5-21DD - P1 Gen 5
+- P16 G1-21D6 - P16 Gen 1
+- P16 G1-21D7 - P16 Gen 1
+- P16s AMD G1-21CK - P16s AMD Gen 1
+- P16s AMD G1-21CL - P16s AMD Gen 1
+- T14 AMD G3-21CF - T14 AMD Gen 3
+- T14 AMD G3-21CG - T14 AMD Gen 3
+- T14 G3-21AH - T14 Gen 3
+- T14 G3-21AJ - T14 Gen 3
 - T14s 2nd Generation-20WM - T14s Gen 2
 - T14s 2nd Generation-20WN - T14s Gen 2
 - T14s AMD G2-20XF - T14s AMD Gen 2
 - T14s AMD G2-20XG - T14s AMD Gen 2
+- T14s AMD G3-21CQ - T14s AMD Gen 3
+- T14s AMD G3-21CR - T14s AMD Gen 3
+- T14s G3-21BR - T14s Gen 3
+- T14s G3-21BS - T14s Gen 3
+- T16 AMD G1-21CH - T16 AMD Gen 1
+- T16 AMD G1-21CJ - T16 AMD Gen 1
+- T16 G1-21BV - T16 Gen 1
+- T16 G1-21BW - T16 Gen 1
+- ThinkPad X13 series-X13 Yoga G3
 - X1 Carbon 7th Generation-20QD MT
 - X1 Carbon 7th Generation-20QE MT
 - X1 Carbon 7th Generation-20R1 MT
@@ -12,6 +49,14 @@
 - X1 Carbon 8th Generation-20UA MT 2020
 - X1 Carbon 9th Generation-20XW - X1 Carbon Gen 9
 - X1 Carbon 9th Generation-20XX - X1 Carbon Gen 9
+- X1 Carbon G10-21CB - X1 Carbon Gen 10
+- X1 Carbon G10-21CC - X1 Carbon Gen 10
+- X1 Extreme G4-20Y5 - X1 Extreme Gen 4
+- X1 Extreme G4-20Y6 - X1 Extreme Gen 4
+- X1 Extreme G5-21DE - X1 Extreme Gen 5
+- X1 Extreme G5-21DF - X1 Extreme Gen 5
+- X1 Nano G2-21E8 - X1 Nano Gen 2
+- X1 Nano G2-21E9 - X1 Nano Gen 2
 - X1 Nano-20UN MT 2020
 - X1 Nano-20UQ MT 2020
 - X1 Titanium G1-20QA MT 2020
@@ -24,11 +69,24 @@
 - X1 Yoga 5th Generation-20UC MT 2020
 - X1 Yoga 6th Generation-20XY - X1 Yoga Gen 6
 - X1 Yoga 6th Generation-20Y0 - X1 Yoga Gen 6
+- X1 Yoga G7-21CD - X1 Yoga Gen 7
+- X1 Yoga G7-21CE - X1 Yoga Gen 7
 - X12 Detachable 1st Generation-20UV MT 2020
 - X12 Detachable 1st Generation-20UW MT 2020
 - X13 AMD G2-20XH - X13 AMD Gen 2
 - X13 AMD G2-20XJ - X13 AMD Gen 2
+- X13 AMD G3-21CM - X13 AMD Gen 3
+- X13 AMD G3-21CN - X13 AMD Gen 3
 - X13 G2-20WK - X13 Gen 2
 - X13 G2-20WL - X13 Gen 2
+- X13 G3-21BN - X13 Gen 3
+- X13 G3-21BQ - X13 Gen 3
 - X13 Yoga 2nd Generation-20W8 MT 2021
 - X13 Yoga 2nd Generation-20W9 MT 2021
+- X13 Yoga G3-21AX - X13 Yoga Gen 3
+- X13s G1-21BX - X13s Gen 1
+- X13s G1-21BY - X13s Gen 1
+- Z13 AMD G1-21D2 - Z13 Gen 1
+- Z13 AMD G1-21D3 - Z13 Gen 1
+- Z16 AMD G1-21D4 - Z16 Gen 1
+- Z16 AMD G1-21D5 - Z16 Gen 1

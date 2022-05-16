@@ -2,6 +2,10 @@
 - A285-20MX MT
 - E14 2nd Generation-ARE-20T6 MT 2020
 - E14 2nd Generation-ARE-20T7 MT 2020
+- E14 AMD 3rd Generation-20Y7 - E14 AMD Gen 3
+- E14 AMD 3rd Generation-20YD - E14 AMD Gen 3
+- E14 AMD 3rd Generation-20YE - E14 AMD Gen 3
+- E14 AMD 3rd Generation-20YF - E14 AMD Gen 3
 - E14-IML-20RA MT
 - E14-IML-20RB MT
 - E15 2nd Generation-ARE-20T8 MT 2020
@@ -23,10 +27,14 @@
 - E595-20NF MT
 - L13 Clam 2nd Generation-20VH MT 2020
 - L13 Clam 2nd Generation-20VJ MT 2020
+- L13 Clam AMD G2-21AB - L13 Clam Gen 2
+- L13 Clam AMD G2-21AC - L13 Clam Gen 2
 - L13 Clam-20R3 MT
 - L13 Clam-20R4 MT
 - L13 Yoga 2nd Generation-20VK MT 2020
 - L13 Yoga 2nd Generation-20VL MT 2020
+- L13 Yoga AMD G2-21AD - L13 Yoga Gen 2
+- L13 Yoga AMD G2-21AE - L13 Yoga Gen 2
 - L13 Yoga-20R5 MT
 - L13 Yoga-20R6 MT
 - L14 AMD G1-20U5 MT 2020
@@ -73,6 +81,10 @@
 - P15s 1st Generation-20T5 MT 2020
 - P15s 2nd Generation-20W6 - P15s Gen 2
 - P15s 2nd Generation-20W7 - P15s Gen 2
+- P15v G2-21A9 - P15v Gen 2
+- P15v G2-21AA - P15v Gen 2
+- P15v G3-21D8 - P15v Gen 3
+- P15v G3-21D9 - P15v Gen 3
 - P17 G2-20YU - P17 Gen 2
 - P17 G2-20YV - P17 Gen 2
 - P43s-20RH MT
@@ -101,6 +113,10 @@
 - T15 2nd Generation-20W5 - T15 Gen 2
 - T15g G2-20YS - T15g Gen 2
 - T15g G2-20YT - T15g Gen 2
+- T15p G2-21A7 - T15p Gen 2
+- T15p G2-21A8 - T15p Gen 2
+- T15p G3-21DA - T15p Gen 3
+- T15p G3-21DB - T15p Gen 3
 - T460p-20FW MT
 - T460p-20FX MT
 - T460s-20F9 MT
