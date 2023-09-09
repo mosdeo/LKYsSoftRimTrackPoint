@@ -1,15 +1,31 @@
 - A285-20MW MT
 - A285-20MX MT
+- E14 2nd Generation-20TA MT 2020
+- E14 2nd Generation-20TB MT 2020
 - E14 2nd Generation-ARE-20T6 MT 2020
 - E14 2nd Generation-ARE-20T7 MT 2020
 - E14 AMD 3rd Generation-20Y7 - E14 AMD Gen 3
 - E14 AMD 3rd Generation-20YD - E14 AMD Gen 3
 - E14 AMD 3rd Generation-20YE - E14 AMD Gen 3
 - E14 AMD 3rd Generation-20YF - E14 AMD Gen 3
+- E14 AMD G4-21EB - E14 AMD Gen 4
+- E14 AMD G4-21EC - E14 AMD Gen 4
+- E14 G4-21E3 - E14 Gen 4
+- E14 G4-21E4 - E14 Gen 4
 - E14-IML-20RA MT
 - E14-IML-20RB MT
 - E15 2nd Generation-ARE-20T8 MT 2020
 - E15 2nd Generation-ARE-20T9 MT 2020
+- E15 AMD 3rd Generation-20YG - E15 AMD Gen 3
+- E15 AMD 3rd Generation-20YH - E15 AMD Gen 3
+- E15 AMD 3rd Generation-20YJ - E15 AMD Gen 3
+- E15 AMD 3rd Generation-20YK - E15 AMD Gen 3
+- E15 AMD G4-21ED - E15 AMD Gen 4
+- E15 AMD G4-21EE - E15 AMD Gen 4
+- E15 G2-20TD MT 2020
+- E15 G2-20TE MT 2020
+- E15 G4-21E6 - E15 Gen 4
+- E15 G4-21E7 - E15 Gen 4
 - E15-IML-20RD MT
 - E15-IML-20RE MT
 - E480-20KN MT
@@ -75,30 +91,27 @@
 - P14s AMD G1-20Y2 - P14s AMD Gen 1
 - P14s AMD G2-21A0 - P14s AMD Gen 2
 - P14s AMD G2-21A1 - P14s AMD Gen 2
-- P15 G2-20YQ - P15 Gen 2
 - P15 G2-20YR - P15 Gen 2
 - P15s 1st Generation-20T4 MT 2020
 - P15s 1st Generation-20T5 MT 2020
 - P15s 2nd Generation-20W6 - P15s Gen 2
 - P15s 2nd Generation-20W7 - P15s Gen 2
+- P15v AMD G3-21EM - P15v AMD Gen 3
+- P15v AMD G3-21EN - P15v AMD Gen 3
 - P15v G2-21A9 - P15v Gen 2
 - P15v G2-21AA - P15v Gen 2
 - P15v G3-21D8 - P15v Gen 3
 - P15v G3-21D9 - P15v Gen 3
-- P17 G2-20YU - P17 Gen 2
-- P17 G2-20YV - P17 Gen 2
 - P43s-20RH MT
 - P43s-20RJ MT
 - P52-20M9 MT
 - P52-20MA MT
 - P53-20QN MT
 - P53-20QQ MT
-- P53s-20N6 MT
 - P53s-20N7 MT
 - P72-20MB MT
 - P72-20MC MT
 - P73-20QR MT
-- P73-20QS MT
 - T14 2nd Generation-20W0 MT 2021
 - T14 2nd Generation-20W1 MT 2021
 - T14 2nd Generation-20W2 MT 2021 HC
@@ -111,7 +124,6 @@
 - T14s AMD G1-20UJ MT 2020
 - T15 2nd Generation-20W4 - T15 Gen 2
 - T15 2nd Generation-20W5 - T15 Gen 2
-- T15g G2-20YS - T15g Gen 2
 - T15g G2-20YT - T15g Gen 2
 - T15p G2-21A7 - T15p Gen 2
 - T15p G2-21A8 - T15p Gen 2
@@ -151,17 +163,20 @@
 - ThinkPad L14-20U2 MT 2020
 - ThinkPad L15-20U3 MT 2020
 - ThinkPad L15-20U4 MT 2020
-- ThinkPad P1 3rd Generation-20TH MT 2020
+- ThinkPad P Series-P53s
+- ThinkPad P Series-P73
 - ThinkPad P1 3rd Generation-20TJ MT 2020
+- ThinkPad P1 Series-ThinkPad P1 3rd Generation
 - ThinkPad P14s-20S4 MT 2020
 - ThinkPad P14s-20S5 MT 2020
+- ThinkPad P15 Series-P15 G2
 - ThinkPad P15-20ST MT 2020
 - ThinkPad P15-20SU MT 2020
 - ThinkPad P15g-20UR MT 2020
 - ThinkPad P15g-20US MT 2020
 - ThinkPad P15v-20TQ MT 2020
 - ThinkPad P15v-20TR MT 2020
-- ThinkPad P17-20SN MT 2020
+- ThinkPad P17 Series-ThinkPad P17
 - ThinkPad P17-20SQ MT 2020
 - ThinkPad T14-20S0 MT 2020
 - ThinkPad T14-20S1 MT 2020
@@ -169,6 +184,7 @@
 - ThinkPad T14-20S3 MT 2020 HC
 - ThinkPad T14s-20T0 MT 2020
 - ThinkPad T14s-20T1 MT 2020
+- ThinkPad T15 Series-T15g G2
 - ThinkPad T15-20S6 MT 2020
 - ThinkPad T15-20S7 MT 2020
 - ThinkPad T15p-20TM MT 2020

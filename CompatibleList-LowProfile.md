@@ -13,7 +13,6 @@
 - E470-20H1 MT
 - E470-20H2 MT
 - E475-20H4 MT
-- E530 Sub Series-MT 6272
 - E540 Sub Series-MT 20C6
 - E550 Sub Series-20DF
 - E550 Sub Series-20DG
@@ -56,6 +55,7 @@
 - P52s-20LC MT
 - P71-20HK MT
 - P71-20HL MT
+- PC 300-6272
 - S1 4th Gen-STORM-3.0 20LK MT
 - S100-20C0 MT
 - S100-20CD MT
@@ -160,16 +160,16 @@
 - ThinkPad T43-1874
 - ThinkPad T43-1875
 - ThinkPad T43-1876
-- ThinkPad T43p-2668
+- ThinkPad T43-2668
+- ThinkPad T43-2678
+- ThinkPad T43-2686
 - ThinkPad T43p-2669
-- ThinkPad T43p-2678
 - ThinkPad T43p-2679
-- ThinkPad T43p-2686
 - ThinkPad T43p-2687
 - ThinkPad T60-6373
 - ThinkPad T60-6374
+- ThinkPad T60-8746
 - ThinkPad T60p-8745
-- ThinkPad T60p-8746
 - ThinkPad W540-20BG MT
 - ThinkPad W541-20EF MT
 - ThinkPad W541-20EG MT
@@ -177,9 +177,9 @@
 - ThinkPad W550s-20E2 MT
 - ThinkPad X270-20KC MT
 - ThinkPad X270-20KD MT
+- ThinkPad X30-2672
+- ThinkPad X30-2673
 - ThinkPad X300-4183
-- ThinkPad X31-2672
-- ThinkPad X31-2673
 - ThinkPad X31-2884
 - ThinkPad X31-2885
 - ThinkPad X31-2890
@@ -207,9 +207,9 @@
 - ThinkPad X60S-2507
 - ThinkPad X60S-2508
 - ThinkPad X60S-2533
-- ThinkPad X61 Tablet-7668
 - ThinkPad X61 Tablet-7669
 - ThinkPad X61-8748
+- ThinkPad X61s-7668
 - ThinkPad Yoga 260-20FD MT
 - ThinkPad Yoga 370-20JH MT
 - ThinkPad Yoga 370-20JJ MT
