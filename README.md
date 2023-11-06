@@ -6,6 +6,10 @@
 
 ![SoftRim_TPU](pictures/SoftRim_TPU.jpg)
 
+## Launch our New Version at February 2023！
+
+- 3mm !
+
 ## Launch our New Version at February 2019！
 
 - 觸感：改善刮手問題，對手指更親合、更具包覆性！
@@ -39,22 +43,10 @@
   - <https://accessorysmartfind.lenovo.com/#/products/4XH0L55146>
   - [如果官方連結失效，請看這個備份（backup list）](CompatibleList-SuperLowProfile.md)
 
-### ThinkPad X1 Carbon 7/8/9 Gen 與 X1 Nano 需要打磨過後方可使用
-
-由於我本身沒有這台電腦可以測試，所以仰賴勇敢的幾位網友幫忙測試，得到以下結果：
-
-- 孔洞大小與 SLP 一樣，但高度較低
-- 用400號砂紙磨 20 分鐘，就能磨到至少可以用。最後可以用1000號砂紙修飾外表。
-- 如果磨的不夠短，蓋上蓋子以後會無法自動休眠
-- 該網友提供的參考照片 <https://photos.app.goo.gl/yF3PcBu1QVKfFNjG6>
-
-蝦皮網友dennytung磨好的樣子：
-
-<img width="30%" src="pictures/shopee_dennytung/IMG_0710.JPG"><img width="30%" src="pictures/shopee_dennytung/IMG_0711.JPG"><img width="30%" src="pictures/shopee_dennytung/IMG_0712.JPG">
-
-### 已知不可用型號 Incompatible
-
-- ThinkPad X1 Tablet（參考 X1C7，你願意磨更久的話說不定可以用，願意嘗試者可以跟我要半價風險補貼）
+### 3mm
+- ThinkPad X1 Carbon 7/8/9 Gen
+- X1 Nano
+- ThinkPad X1 Tablet
 
 ---
 
@@ -70,7 +62,10 @@
 
 ## 哪裡買？Where to buy？
 
-蝦皮（台灣） <https://shopee.tw/mosdeo/1885494569>  
+蝦皮（台灣） ~~<https://shopee.tw/mosdeo/1885494569>~~  
+目前我的蝦皮帳號異常，由我堂弟代售，連結：
+<https://shopee.tw/product/8280067/21781729737/>  
+
 淘寶（大陸） <https://item.taobao.com/item.htm?id=587030319640>  
 Etsy（Out of Taiwan or Mainland China） <https://www.etsy.com/listing/666095744/pointing-stick-for-thinkpad-x1>
 
