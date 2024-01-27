@@ -44,6 +44,7 @@
   - [如果官方連結失效，請看這個備份（backup list）](CompatibleList-SuperLowProfile.md)
 
 ### 3mm
+
 - ThinkPad X1 Carbon 7/8/9 Gen
 - X1 Nano
 - ThinkPad X1 Tablet
