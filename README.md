@@ -48,6 +48,11 @@
 - X1 Nano
 - ThinkPad X1 Tablet
 
+- 官方列表更詳細，清單內可相容
+- More detail compatible type, in this official list  
+  - <https://smartfind.lenovo.com/accessories/#/products/4XH0X88960>
+  - [如果官方連結失效，請看這個備份（backup list）](CompatibleList-ThinkPad3mm.md)
+
 ---
 
 ## Low Profile 與 Super Low Profile 對照圖與比例尺（Scale of Low Profile & Super Low Profile）
