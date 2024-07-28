@@ -6,6 +6,8 @@
 
 ![SoftRim_TPU](pictures/SoftRim_TPU.jpg)
 
+![LP_SLP_3mm](pictures/LP_SLP_3mm.jpg)
+
 ## Launch our New Version at February 2023！
 
 - 3mm !
@@ -18,6 +20,17 @@
 - 外觀：色澤更加鮮紅！與 ThinkPad 更搭配！
 
 ## 已知大多數人會用的型號相容性 Compatibility of popular type
+
+### 3mm
+
+- ThinkPad X1 Carbon 7/8/9 Gen
+- X1 Nano
+- ThinkPad X1 Tablet
+
+- 官方列表更詳細，清單內可相容
+- More detail compatible type, in this official list  
+  - <https://smartfind.lenovo.com/accessories/#/products/4XH0X88960>
+  - [如果官方連結失效，請看這個備份（backup list）](CompatibleList-ThinkPad3mm.md)
 
 ### Low Profile(LP)
 
@@ -42,17 +55,6 @@
 - More detail compatible type, in this official list  
   - <https://accessorysmartfind.lenovo.com/#/products/4XH0L55146>
   - [如果官方連結失效，請看這個備份（backup list）](CompatibleList-SuperLowProfile.md)
-
-### 3mm
-
-- ThinkPad X1 Carbon 7/8/9 Gen
-- X1 Nano
-- ThinkPad X1 Tablet
-
-- 官方列表更詳細，清單內可相容
-- More detail compatible type, in this official list  
-  - <https://smartfind.lenovo.com/accessories/#/products/4XH0X88960>
-  - [如果官方連結失效，請看這個備份（backup list）](CompatibleList-ThinkPad3mm.md)
 
 ---
 
