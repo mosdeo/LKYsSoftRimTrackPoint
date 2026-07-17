@@ -8,6 +8,17 @@
 
 ![LP_SLP_3mm](pictures/LP_SLP_3mm.jpg)
 
+> [!IMPORTANT]
+> ## 海外訂購暫停｜International orders are temporarily paused
+>
+> Etsy 已停止支援台灣賣家使用原有的獨立 PayPal 收款方式，而 Etsy Payments 目前仍不支援台灣，因此我們的 Etsy 店舖已無法繼續接受訂單。
+>
+> 我們正在研究新的國際下單與收款方式。海外新舊客戶請先收藏或關注此頁面；確定新的訂購方式後，會在這裡更新。
+>
+> Etsy has stopped supporting standalone PayPal for Taiwan-based sellers, while Etsy Payments is still unavailable in Taiwan. As a result, our Etsy shop can no longer accept orders.
+>
+> We are working on a new method for international ordering and payment. Please bookmark or watch this page for updates. Do not send payment until a new ordering method is announced here.
+
 ## Launch our New Version at February 2023！
 
 - 3mm !
@@ -70,12 +81,27 @@
 
 ## 哪裡買？Where to buy？
 
-蝦皮（台灣） ~~<https://shopee.tw/mosdeo/1885494569>~~  
-目前我的蝦皮帳號異常，由我堂弟代售，連結：
+### 台灣 Taiwan
+
+蝦皮 ~~<https://shopee.tw/mosdeo/1885494569>~~  
+目前我的蝦皮帳號異常，由我堂弟代售：  
 <https://shopee.tw/product/8280067/21781729737/>  
 
-淘寶（大陸） <https://item.taobao.com/item.htm?id=587030319640>  
-Etsy（Out of Taiwan or Mainland China） <https://www.etsy.com/listing/666095744/pointing-stick-for-thinkpad-x1>
+### 中國大陸 Mainland China
+
+淘寶 <https://item.taobao.com/item.htm?id=587030319640>  
+
+### 其他國家與地區 International
+
+~~Etsy <https://www.etsy.com/listing/666095744/pointing-stick-for-thinkpad-x1>~~  
+
+Etsy 已停止支援台灣賣家使用原有的獨立 PayPal 收款方式，因此目前無法透過 Etsy 接受國際訂單。
+
+新的國際訂購方式仍在規劃中。請收藏或關注本頁面，後續消息會在此更新。
+
+Etsy has stopped supporting standalone PayPal for Taiwan-based sellers, so international orders cannot currently be accepted through Etsy.
+
+A new international ordering method is being prepared. Please bookmark or watch this page for future updates.
 
 ## 覺得貴嗎？貴就對了！便宜是留給爛大街的凸點。加油！挑剔的人！
 
