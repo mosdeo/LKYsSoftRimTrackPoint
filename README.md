@@ -9,15 +9,19 @@
 ![LP_SLP_3mm](pictures/LP_SLP_3mm.jpg)
 
 > [!IMPORTANT]
-> ## 海外訂購暫停｜International orders are temporarily paused
+> ## 海外訂購已恢復｜International ordering is available
 >
 > Etsy 已停止支援台灣賣家使用原有的獨立 PayPal 收款方式，而 Etsy Payments 目前仍不支援台灣，因此我們的 Etsy 店舖已無法繼續接受訂單。
 >
-> 我們正在研究新的國際下單與收款方式。海外新舊客戶請先收藏或關注此頁面；確定新的訂購方式後，會在這裡更新。
+> 大中華區以外的客戶目前可透過人工訂單方式購買。商品單價為 USD 27，每筆訂單國際運費為 USD 3，可使用 PayPal 或香港中國銀行（BOCHK）轉帳付款。
+>
+> 詳細流程與訂單格式請參閱：[International Orders Outside Greater China](InternationalOrders.md)
 >
 > Etsy has stopped supporting standalone PayPal for Taiwan-based sellers, while Etsy Payments is still unavailable in Taiwan. As a result, our Etsy shop can no longer accept orders.
 >
-> We are working on a new method for international ordering and payment. Please bookmark or watch this page for updates. Do not send payment until a new ordering method is announced here.
+> Customers outside Greater China may now order manually. The unit price is USD 27, international shipping is USD 3 per order, and payment is available through PayPal or bank transfer to Bank of China (Hong Kong).
+>
+> Please read: [International Orders Outside Greater China](InternationalOrders.md)
 
 ## Launch our New Version at February 2023！
 
@@ -91,17 +95,23 @@
 
 淘寶 <https://item.taobao.com/item.htm?id=587030319640>  
 
-### 其他國家與地區 International
+### 大中華區以外 Outside Greater China
 
-~~Etsy <https://www.etsy.com/listing/666095744/pointing-stick-for-thinkpad-x1>~~  
+商品單價：USD 27  
+每筆訂單國際運費：USD 3  
+付款方式：PayPal 或香港中國銀行（BOCHK）轉帳  
 
-Etsy 已停止支援台灣賣家使用原有的獨立 PayPal 收款方式，因此目前無法透過 Etsy 接受國際訂單。
+請先閱讀完整訂購流程、相容性確認方式與訂單格式：  
+[International Orders Outside Greater China](InternationalOrders.md)
 
-新的國際訂購方式仍在規劃中。請收藏或關注本頁面，後續消息會在此更新。
+Unit price: USD 27  
+International shipping: USD 3 per order  
+Payment: PayPal or bank transfer to Bank of China (Hong Kong)  
 
-Etsy has stopped supporting standalone PayPal for Taiwan-based sellers, so international orders cannot currently be accepted through Etsy.
+Please read the ordering instructions and use the order form:  
+[International Orders Outside Greater China](InternationalOrders.md)
 
-A new international ordering method is being prepared. Please bookmark or watch this page for future updates.
+~~Etsy <https://www.etsy.com/listing/666095744/pointing-stick-for-thinkpad-x1>~~
 
 ## 覺得貴嗎？貴就對了！便宜是留給爛大街的凸點。加油！挑剔的人！
 
